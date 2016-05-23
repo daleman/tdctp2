@@ -1,0 +1,71 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{a4wide}
+\usepackage{fancyhdr}
+\usepackage{pdfpages}
+\pagestyle{fancy}
+\thispagestyle{fancy}
+
+\usepackage{gensymb}
+\usepackage{hyperref}
+\newcommand\fnurl[2]{%
+  \href{#2}{#1}\footnote{\url{#2}}%
+}
+\usepackage{amsfonts}
+% Bibliografía
+\usepackage{natbib}
+
+\usepackage[spanish]{babel}
+\parskip = 11pt
+\addtolength{\topmargin}{-1cm}
+\addtolength{\textheight}{2.2cm}
+\addtolength{\textwidth}{-.5cm}
+
+\makeatletter
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+            {-2.5ex\@plus -1ex \@minus -.25ex}%
+            {1.25ex \@plus .25ex}%
+            {\normalfont\normalsize\bfseries}}
+\makeatother
+\setcounter{secnumdepth}{4} % how many sectioning levels to assign numbers to
+\setcounter{tocdepth}{4}    % how many sectioning levels to show in ToC
+
+\usepackage[conEntregas]{caratula}
+\materia{Teoría de las Comunicaciones}
+\titulo{Trabajo Práctico II}
+\subtitulo{\textit{Rutas en Internet}}
+\integrante{Fernández, Gonzalo}{836/10}{gpfernandezflorio@gmail.com}
+\integrante{Aleman, Damián Eliel}{377/10}{damianealeman@gmail.com}
+\integrante{Pizzagalli, Matías}{257/12}{matipizza@gmail.com}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\newpage
+
+\section{Introducción Te\'orica}
+
+\input{intro.tex}
+
+\section{Desarrollo}
+
+\input{desarrollo.tex}
+
+\section{Resultados}
+
+\input{resultados.tex}
+
+\section{Conclusiones}
+
+\input{conclusiones.tex}
+
+\newpage
+
+\section{Apéndice}
+
+\input{apendice.tex}
+
+\end{document}
