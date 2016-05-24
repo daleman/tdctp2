@@ -22,12 +22,12 @@ if __name__ == '__main__':
 		for i in range(0,tries):
 			a = datetime.datetime.now()
 			# PONER UN TIMEOUT!! a veces se queda esperando infinitamente
-			pkt = sr(IP(dst=dest, ttl=ttlive) / ICMP())
+			pkt = sr(IP(dst=dest, ttl=ttlive) / ICMP(), timeout=1)
 			b = datetime.datetime.now()
 			delta = b-a
 			times.append(delta.seconds*1000 + delta.microseconds/1000)
-			#if NOT(timeout):
-			ip = pkt[0][0][1].src
+			#if (pkt):
+			#	ip = pkt[0][0][1].src
 		if (ip == "Unknown"):
 			print("Error")
 			sys.exit()
@@ -64,4 +64,4 @@ if __name__ == '__main__':
 			outliers.append(i)
 	print("Outliers: " + str(outliers))
 
-#*: Si no, estamos agregándole al primer hop el tiempo de procesamiento incluído en construír el paquete y enviarlo.
+#*: Si no, estamos agregandole al primer hop el tiempo de procesamiento incluido en construir el paquete y enviarlo.

@@ -1,0 +1,5 @@
+Como estamos trabajando con paquetes IP, no tenemos asegurado que el paquete enviado llegue a destino, así como que la respuesta llegue de regreso. Debemos tener esto en cuenta al momento de hacer las mediciones.
+
+Al suponer que la carga de la red de una región depende del horario, proponemos como hipótesis que los tiempos totales medidos diferirán según el horario en que se envían debido a distintos niveles de carga en las redes utilizadas. También es posible que esta diferencia no se vea en conexiones lejanas ya que podrían balancearse las demoras entre las distintas regiones. Esto se debe a que tienen distintos usos horarios, luego la carga se distribuye en el tiempo de otra forma.
+
+La técnica de estimación de outliers sirve para identificar valores distantes en módulo a la media. Al utilizar esta técnica vamos a estar identificando valores muy por encima y muy por debajo de la media. Sin embargo, como el objetivo es identificar saltos intercontinentales, tendremos en cuenta sólo aquellos outliers por encima de la media, ya que estos presentan una gran distancia entre dos saltos consecutivos.
