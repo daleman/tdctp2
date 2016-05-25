@@ -12,6 +12,7 @@ if __name__ == '__main__':
 	#traceroute(dest)
 	limit = 25
 	tries = 5
+	to = 30
 
 	# Medidas
 	ips = []
@@ -19,24 +20,27 @@ if __name__ == '__main__':
 	for ttlive in range(1,limit+1):
 		times = []
 		ip = "Unknown"
+		b = False
 		for i in range(0,tries):
 			a = datetime.datetime.now()
-			# PONER UN TIMEOUT!! a veces se queda esperando infinitamente
-			pkt = sr(IP(dst=dest, ttl=ttlive) / ICMP(), timeout=1)
+			pkt = sr(IP(dst=dest, ttl=ttlive) / ICMP(), timeout=to)
 			b = datetime.datetime.now()
 			delta = b-a
 			times.append(delta.seconds*1000 + delta.microseconds/1000)
-			#if (pkt):
-			#	ip = pkt[0][0][1].src
+			if (len(pkt[0]) > 0):
+				ip = pkt[0][0][1].src
+				if (pkt[0][0][1].type == 0):
+					b = True
 		if (ip == "Unknown"):
-			print("Error")
+			print("Error: Lost all packages to hop " + str(ttlive))
+			print("Current route: " + str(ips))
 			sys.exit()
 		ips.append(ip)
-		print("Times " + str(ttlive) + ": " + str(times))##
+		#print("Times " + str(ttlive) + ": " + str(times))##
 		avg = sum(times)/len(times)
-		print(" -> Avg: " + str(avg))##
+		#print(" -> Avg: " + str(avg))##
 		averages.append(avg)
-		if (pkt[0][0][1].type == 0):
+		if (b==True):
 			break
 
 	print("IPs: " + str(ips))##
