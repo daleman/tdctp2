@@ -20,17 +20,21 @@ if __name__ == '__main__':
 	for ttlive in range(1,limit+1):
 		times = []
 		ip = "Unknown"
-		b = False
+		destino_alcanzado = False
 		for i in range(0,tries):
-			a = datetime.datetime.now()
+			start = datetime.datetime.now()
 			pkt = sr(IP(dst=dest, ttl=ttlive) / ICMP(), timeout=to)
-			b = datetime.datetime.now()
-			delta = b-a
+			fin = datetime.datetime.now()
+			delta = fin-start
 			times.append(delta.seconds*1000 + delta.microseconds/1000)
 			if (len(pkt[0]) > 0):
-				ip = pkt[0][0][1].src
+				if (ip == "Unknown"):
+					ip = pkt[0][0][1].src
+				elif (ip!=pkt[0][0][1].src):	#si cambio de ruta, termino la ejecucion
+					print("Cambio de Ruta!")
+					sys.exit()
 				if (pkt[0][0][1].type == 0):
-					b = True
+					destino_alcanzado = True
 		if (ip == "Unknown"):
 			print("Error: Lost all packages to hop " + str(ttlive))
 			print("Current route: " + str(ips))
@@ -40,7 +44,7 @@ if __name__ == '__main__':
 		avg = sum(times)/len(times)
 		#print(" -> Avg: " + str(avg))##
 		averages.append(avg)
-		if (b==True):
+		if (destino_alcanzado==True):
 			break
 
 	print("IPs: " + str(ips))##
