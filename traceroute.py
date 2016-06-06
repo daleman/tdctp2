@@ -10,9 +10,10 @@ if __name__ == '__main__':
 		dest = 'www.dc.uba.ar'
 
 	#traceroute(dest)
+	#sys.exit()
 	limit = 25
 	tries = 5
-	to = 30
+	to = 10
 
 	# Medidas
 	ips = []
@@ -37,15 +38,17 @@ if __name__ == '__main__':
 					destino_alcanzado = True
 		if (ip == "Unknown"):
 			print("Error: Lost all packages to hop " + str(ttlive))
-			print("Current route: " + str(ips))
-			sys.exit()
-		ips.append(ip)
-		#print("Times " + str(ttlive) + ": " + str(times))##
-		avg = sum(times)/len(times)
-		#print(" -> Avg: " + str(avg))##
-		averages.append(avg)
-		if (destino_alcanzado==True):
-			break
+			print("Ignoring hop")
+			#print("Current route: " + str(ips))
+			#sys.exit()
+		else:
+			ips.append(ip)
+			#print("Times " + str(ttlive) + ": " + str(times))##
+			avg = sum(times)/len(times)
+			#print(" -> Avg: " + str(avg))##
+			averages.append(avg)
+			if (destino_alcanzado==True):
+				break
 
 	print("IPs: " + str(ips))##
 	print("Times: " + str(averages))##
