@@ -46,26 +46,26 @@ if __name__ == '__main__':
 	tries = 5
 	to = 1
 
-	# Medidas
+	# Mediciones
 	ips = []
 	hops = [] 	# incluye los hops nulos
-	averages = []
+	rtts = []
 	# Asumimos que ninguna ruta tiene mas de limit+1 hops hasta el destino
 	for ttlive in range(1,limit+1):		
-		times = []
+		deltas = []
 		ip = "Unknown"
 		destino_alcanzado = False
 		for i in range(0,tries):
 			start = datetime.datetime.now()
 			pkt = sr(IP(dst=dest, ttl=ttlive) / ICMP(), timeout=to, verbose=False)
 			fin = datetime.datetime.now()
-	# RTT hasta el hop actual
+			# RTT hasta el hop actual
 			delta = fin-start			
-			times.append(delta.seconds*1000 + delta.microseconds/1000)
+			deltas.append(delta.seconds*1000 + delta.microseconds/1000)
 			if (len(pkt[0]) > 0):
 				if (ip == "Unknown"):
 					ip = pkt[0][0][1].src
-	# Si cambio de ruta, termino la ejecucion
+				# Si cambio de ruta, termino la ejecucion
 				elif (ip!=pkt[0][0][1].src):
 					print("Cambio de Ruta!")
 					sys.exit()
@@ -76,16 +76,17 @@ if __name__ == '__main__':
 		else:
 			ips.append(ip)
 			hops.append(ip)
-			avg = sum(times)/len(times)
-			averages.append(avg)
+			avg = sum(deltas)/len(deltas)
+			rtts.append(avg)
+			# Si ya llegue, dejo de iterar
 			if (destino_alcanzado==True):
 				break
 
 	
 	# Calculos
 	relatives = [(0,ips[0])] # Podemos asumir que el tiempo al primer hop es nulo*
-	for i in range(1,len(averages)):
-		relatives.append((averages[i]-averages[i-1],ips[i]))
+	for i in range(1,len(rtts)):
+		relatives.append((rtts[i]-rtts[i-1],ips[i]))
 	geos = []
 	j = 0
 	for i in range(len(hops)):
@@ -98,7 +99,7 @@ if __name__ == '__main__':
 				sign = ""
 			geoloc = geo(ips[j])
 			geos.append(geoloc)
-			print str(i) + " " + ips[j] + "\t" + str(averages[j]) + " ms\t" + sign + str(relatives[j][0]) + "\t" + geoloc["city"]+ " (" + str(geoloc["country_name"]) + ")"
+			print str(i) + " " + ips[j] + "\t" + str(rtts[j]) + " ms\t" + sign + str(relatives[j][0]) + "\t" + geoloc["city"].encode('ascii','replace')+ " (" + str(geoloc["country_name"].encode('ascii','replace')) + ")"
 			j = j+1
 
 	hora = time.strftime("%H_%M")		
