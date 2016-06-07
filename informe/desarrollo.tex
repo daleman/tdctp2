@@ -1,5 +1,48 @@
-Como estamos trabajando con paquetes IP, no tenemos asegurado que el paquete enviado llegue a destino, así como que la respuesta llegue de regreso. Debemos tener esto en cuenta al momento de hacer las mediciones.
+En este trabajo implementaremos una versión de traceroute a través de mensajes ICMP mediante la herramienta Scapy de Python. Como estamos trabajando con paquetes IP, no tenemos asegurado que el paquete enviado llegue a destino, así como que la respuesta llegue de regreso. Debemos tener esto en cuenta al momento de hacer las mediciones.
+
+Mediremos el tiempo de la recepción de una respuesta a un paquete enviado. Sobre estas mediciones utilizaremos la técnica de estimación de outliers propuesta por Cimbala para identificar posibles saltos transcontinentales y un método gráfico para corroborar esa discriminación.
+
+La técnica de estimación de outliers sirve para identificar valores distantes en módulo a la media. Al utilizar esta técnica vamos a estar identificando valores muy por encima y muy por debajo de la media. Sin embargo, como el objetivo es identificar saltos intercontinentales, tendremos en cuenta sólo aquellos outliers por encima de la media, ya que estos presentan una gran distancia entre dos saltos consecutivos.
 
 Al suponer que la carga de la red de una región depende del horario, proponemos como hipótesis que los tiempos totales medidos diferirán según el horario en que se envían debido a distintos niveles de carga en las redes utilizadas. También es posible que esta diferencia no se vea en conexiones lejanas ya que podrían balancearse las demoras entre las distintas regiones. Esto se debe a que tienen distintos usos horarios, luego la carga se distribuye en el tiempo de otra forma.
 
-La técnica de estimación de outliers sirve para identificar valores distantes en módulo a la media. Al utilizar esta técnica vamos a estar identificando valores muy por encima y muy por debajo de la media. Sin embargo, como el objetivo es identificar saltos intercontinentales, tendremos en cuenta sólo aquellos outliers por encima de la media, ya que estos presentan una gran distancia entre dos saltos consecutivos.
+La implementación se encuentra en el archivo \texttt{traceroute.py} y se necesitan permisos de adminstrador para ejecutarlo. Toma como único parámetro opcional la dirección IP (o el nombre) del host destino. A continuación se presenta un pseudocódigo de la misma.
+
+\lstset{language=Python,numbers=left}
+\begin{lstlisting}
+main(dest = 'www.dc.uba.ar'):
+
+  # Mediciones
+  rtts = []
+  for ttlive in [1..limit]:
+    deltas = []
+    for i in [1..tries]:
+      start = datetime.datetime.now()
+      pkt = sr(IP(dst=dest, ttl=ttlive) / ICMP(), timeout=to, verbose=False)
+      fin = datetime.datetime.now()
+      # RTT hasta el hop actual
+      deltas.append(fin-start)
+
+      # Si cambio de ruta, termino la ejecucion
+      if (cambio_de_ruta())
+        print("Cambio de Ruta!")
+        sys.exit()
+      # Si ya llegue, dejo de iterar
+      if destino_alcanzado():
+        break
+    rtts.append(avg(deltas))
+
+  relatives = calcular_relativos(rtts)
+  calcular_outliers(relatives)
+\end{lstlisting}
+
+La instrucción principal es el llamado a la función \texttt{sr} de Scapy en la línea 9. Esta envía un paquete de control de tipo IP/ICMP con un determinado TTL y devuelve el paquete recibido por respuesta. El valor de TTL itera de uno hasta una constante \texttt{limit}. Al recibir cada respuesta, se obtiene un host intermedio (cuya distancia en saltos coincide con el valor de TTL utilizado) en la ruta que se construye. Esto se realiza una determinada cantidad \texttt{tries} de veces, para obtener un promedio más confiable entre todos estos intentos.
+
+Como se mencionó anteriormente, el método basado en paquetes IP para implementar Traceroute es propenso a pérdida de paquetes y cambios de ruta. Si no se recibe una respuesta de ninguno de los \texttt{tries} paquetes,
+se considera un salto nulo (probablemente, un router programado para no enviar respuestas de tipo \texttt{Time-Exceeded}) y se pasa al siguiente nodo de la ruta (aumentando en uno el TTL). Si se detecta un cambio de ruta (dos emisores distintos en un mismo ciclo TTL) se finaliza la ejecución, ya que no va a ser posible determinar la ruta completa hasta el destino.
+
+Si el emisor de la respuesta es el host al que intentábamos conectarnos, significa que ya tenemos la ruta completa, por lo tanto no hace falta seguir iterando el valor de TTL. Estimamos que no vamos a encontrar una ruta con más hosts intermedios que el valor máximo de TTL, es decir \texttt{limit}.
+
+Finalmente se calculan los outliers usando el procedimiento de estimación de outliers mencionado anteriormente. Este toma un arreglo con los valores de RTT relativos de cada nodo no nulo de la ruta. Llamamos RTT relativo de un nodo al valor de RTT de dicho nodo, restándole el valor de RTT del nodo anterior. De esta forma, son los valores de RTT relativos muy altos los que queremos identificar como outliers, ya que estos se corresponderán con nodos detrás de un enlace intercontinental.
+
+Adicionalmente, se imprimen por pantalla cada una de las direcciones IP obtenidas, junto con el RTT estimado desde el origen, la diferencia respecto al RTT del nodo anterior y la ubicación geógrafica del router obtenida a partir de \texttt{http://freegeoip.net/}\footnote{Para más información sobre la implementación de la herramienta automática de obtención de posiciones geográficas, a partir de la dirección IP, consultar el apéndice}. También se imprimen los outliers estimados, junto con su valor de RTT relativo. Esto es necesario ya que sólo nos interesan los outliers con valor de RTT relativo positivo.
