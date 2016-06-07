@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-for i in $(seq 1 1 100)
+for i in $(seq 1 1 100000000)
 do
 	
 	date +%F_%T >> routes_dc.txt 
@@ -40,8 +40,6 @@ do
 	traceroute www.unimi.it >> routes_it.txt
 	echo "Milan propio $i"
 	sudo python traceroute.py www.unimi.it >> routes_it.txt
-
-	sleep 900
 
 done
 

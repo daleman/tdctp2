@@ -105,7 +105,11 @@ if __name__ == '__main__':
 	hora = time.strftime("%H_%M")		
 	gnuploter(dest+hora)
 	
-	
+	# tiempo total por hora
+	file1 = open(dest+"_congestion.dat","a")
+	file1.write(hora+"\t"+sum(map(lambda x: x[0], relatives)))
+	file1.close()
+
 	f = open(dest + hora + ".cor","a")
 	for g in geos:
 		if abs (g["latitude"]) > 0.0001 and abs(g["longitude"]) > 0.0001 :
