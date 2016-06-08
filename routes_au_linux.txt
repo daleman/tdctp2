@@ -1078,3 +1078,18 @@ traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
 11  * * *
 12  * * *
 13  shared-addr.ucc.usyd.edu.au (129.78.5.8)  351.793 ms  347.837 ms  359.892 ms
+2016-06-08_13:21:20
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.411 ms  0.465 ms  0.472 ms
+ 2  10.21.192.1 (10.21.192.1)  540.589 ms  540.682 ms  545.573 ms
+ 3  10.242.1.17 (10.242.1.17)  545.679 ms  545.944 ms  546.694 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  548.820 ms  548.927 ms  549.030 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  546.025 ms  549.677 ms  549.546 ms
+ 6  xe-1-1-0.paloalto2.pao.seabone.net (195.22.206.188)  737.655 ms  756.834 ms xe-1-0-0.paloalto2.pao.seabone.net (89.221.35.161)  211.915 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  213.137 ms  223.779 ms  224.195 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  354.938 ms  354.703 ms  354.806 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  360.980 ms  362.085 ms  367.704 ms
+10  138.44.5.47 (138.44.5.47)  363.719 ms  371.685 ms  360.809 ms
+11  * * *
+12  * * *
+13  uat-scilearn.sydney.edu.au (129.78.5.8)  554.840 ms  553.836 ms  553.709 ms

@@ -882,3 +882,17 @@ Outlier (198.32.122.2): 144
 Average: 15
 Std Deviation: 51.1761663277
 Outlier (198.32.122.2): 150
+2016-06-08_13:14:07
+0 192.168.1.1	74 ms	+0	 ()
+1 10.21.192.1	73 ms	-1	 ()
+2 10.242.1.17	81 ms	+8	 ()
+3 208.178.195.210	68 ms	-13	 (United States)
+4 208.178.195.209	71 ms	+3	 (United States)
+5 198.32.122.2	256 ms	+185	Miami (United States)
+6 * * *
+7 143.107.151.42	207 ms	-49	S?o Paulo (Brazil)
+8 143.107.249.38	217 ms	+10	S?o Paulo (Brazil)
+9 200.144.248.54	208 ms	-9	 (Brazil)
+Average: 14
+Std Deviation: 66.1966766537
+Outlier (198.32.122.2): 185

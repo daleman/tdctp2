@@ -2302,3 +2302,35 @@ traceroute to www.u-tokyo.ac.jp (210.152.135.178), 30 hops max, 60 byte packets
 28  * * *
 29  * * *
 30  * * *
+2016-06-08_13:15:06
+traceroute to www.u-tokyo.ac.jp (210.152.135.178), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.362 ms  0.444 ms  0.446 ms
+ 2  10.21.192.1 (10.21.192.1)  21.235 ms  21.312 ms  21.325 ms
+ 3  10.242.1.17 (10.242.1.17)  21.760 ms  21.873 ms  21.983 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  22.342 ms  22.457 ms  25.803 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  23.581 ms  23.678 ms  31.685 ms
+ 6  ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  56.156 ms ae7.sanpaolo8.spa.seabone.net (195.22.219.17)  47.875 ms et-10-1-0.sanpaolo8.spa.seabone.net (195.22.219.145)  36.860 ms
+ 7  et-10-1-0.sanpaolo8.spa.seabone.net (195.22.219.145)  42.478 ms ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  47.626 ms et-10-1-0.sanpaolo8.spa.seabone.net (195.22.219.145)  42.367 ms
+ 8  149.3.181.65 (149.3.181.65)  49.390 ms  49.483 ms  49.893 ms
+ 9  ae-4.r24.nycmny01.us.bb.gin.ntt.net (129.250.2.227)  163.623 ms  164.099 ms  167.553 ms
+10  ae-2.r20.sttlwa01.us.bb.gin.ntt.net (129.250.4.13)  220.993 ms  221.002 ms  219.514 ms
+11  ae-0.r21.sttlwa01.us.bb.gin.ntt.net (129.250.2.54)  254.022 ms  204.726 ms  204.812 ms
+12  ae-2.r20.osakjp02.jp.bb.gin.ntt.net (129.250.3.86)  290.247 ms  289.893 ms  310.147 ms
+13  ae-4.r23.osakjp02.jp.bb.gin.ntt.net (129.250.6.90)  347.166 ms ae-4.r22.osakjp02.jp.bb.gin.ntt.net (129.250.6.188)  301.454 ms ae-4.r23.osakjp02.jp.bb.gin.ntt.net (129.250.6.90)  294.513 ms
+14  ae-1.r01.osakjp02.jp.bb.gin.ntt.net (129.250.2.255)  310.168 ms  288.734 ms ae-2.r01.osakjp02.jp.bb.gin.ntt.net (129.250.3.199)  287.088 ms
+15  xe-0-4-0-7.r01.osakjp02.jp.ce.gin.ntt.net (61.200.80.218)  302.598 ms  287.524 ms  319.737 ms
+16  ae0.ostcr01.idc.jp (158.205.192.173)  369.290 ms  322.352 ms  338.032 ms
+17  158.205.192.86 (158.205.192.86)  322.183 ms  301.721 ms  313.853 ms
+18  po2.l321.fk1.eg.idc.jp (158.205.121.250)  321.810 ms  297.800 ms  321.407 ms
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
