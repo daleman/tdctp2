@@ -1,33 +1,53 @@
 #Creo los directorios (comentar si ya existen)
-mkdir tokyo india sydney milan saopaulo congestion
+#mkdir tokyo india sydney milan saopaulo
 
 #Muevo los archivos
-FILES=*congestion.dat
-for f in $FILES
-do
-	git mv $f congestion/$f
-done
-FILES=www.u-tokyo.ac.jp*
+FILES=www.u-tokyo.ac.jp*.gnuplot
 for f in $FILES
 do
 	git mv $f tokyo/$f
 done
-FILES=www.iitkgp.ac.in*
+FILES=www.iitkgp.ac.in*.gnuplot
 for f in $FILES
 do
 	git mv $f india/$f
 done
-FILES=sydney.edu.au*
+FILES=sydney.edu.au*.gnuplot
 for f in $FILES
 do
 	git mv $f sydney/$f
 done
-FILES=www.unimi.it*
+FILES=www.unimi.it*.gnuplot
 for f in $FILES
 do
 	git mv $f milan/$f
 done
-FILES=www5.usp.br*
+FILES=www5.usp.br*.gnuplot
+for f in $FILES
+do
+	git mv $f saopaulo/$f
+done
+FILES=www.u-tokyo.ac.jp*.cor
+for f in $FILES
+do
+	git mv $f tokyo/$f
+done
+FILES=www.iitkgp.ac.in*.cor
+for f in $FILES
+do
+	git mv $f india/$f
+done
+FILES=sydney.edu.au*.cor
+for f in $FILES
+do
+	git mv $f sydney/$f
+done
+FILES=www.unimi.it*.cor
+for f in $FILES
+do
+	git mv $f milan/$f
+done
+FILES=www5.usp.br*.cor
 for f in $FILES
 do
 	git mv $f saopaulo/$f
