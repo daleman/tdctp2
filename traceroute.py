@@ -108,7 +108,7 @@ if __name__ == '__main__':
 	
 	# tiempo total por hora
 	file1 = open(dest+"_congestion.dat","a")
-	file1.write(hora+"\t"+str(sum(map(lambda x: x[0], relatives))))
+	file1.write(hora+"\t"+str(sum(map(lambda x: x[0], relatives)))+"\n")
 	file1.close()
 
 	file2 = open(dest + hora + ".cor","a")

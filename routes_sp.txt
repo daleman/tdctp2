@@ -788,3 +788,97 @@ Outlier (198.32.122.2): 157
 Average: 11
 Std Deviation: 44.0340777126
 Outlier (198.32.122.2): 92
+2016-06-08_11:03:12
+0 192.168.1.1	69 ms	+0	 ()
+1 10.21.192.1	62 ms	-7	 ()
+2 10.242.1.17	67 ms	+5	 ()
+3 208.178.195.210	80 ms	+13	 (United States)
+4 208.178.195.209	79 ms	-1	 (United States)
+5 198.32.122.2	237 ms	+158	Miami (United States)
+6 * * *
+7 143.107.151.42	207 ms	-30	S?o Paulo (Brazil)
+8 143.107.249.38	213 ms	+6	S?o Paulo (Brazil)
+9 200.144.248.54	207 ms	-6	 (Brazil)
+Average: 15
+Std Deviation: 54.8452368032
+Outlier (198.32.122.2): 158
+2016-06-08_11:13:44
+0 192.168.1.1	94 ms	+0	 ()
+1 10.21.192.1	73 ms	-21	 ()
+2 10.242.1.17	66 ms	-7	 ()
+3 208.178.195.210	73 ms	+7	 (United States)
+4 208.178.195.209	75 ms	+2	 (United States)
+5 198.32.122.2	230 ms	+155	Miami (United States)
+6 * * *
+7 143.107.151.42	202 ms	-28	S?o Paulo (Brazil)
+8 143.107.249.38	212 ms	+10	S?o Paulo (Brazil)
+9 200.144.248.54	211 ms	-1	 (Brazil)
+Average: 13
+Std Deviation: 54.6900356555
+Outlier (198.32.122.2): 155
+2016-06-08_11:25:30
+0 192.168.1.1	63 ms	+0	 ()
+1 10.21.192.1	77 ms	+14	 ()
+2 10.242.1.17	63 ms	-14	 ()
+3 208.178.195.210	70 ms	+7	 (United States)
+4 208.178.195.209	73 ms	+3	 (United States)
+5 198.32.122.2	233 ms	+160	Miami (United States)
+6 * * *
+7 143.107.151.42	213 ms	-20	S?o Paulo (Brazil)
+8 143.107.249.38	217 ms	+4	S?o Paulo (Brazil)
+9 200.144.248.54	212 ms	-5	 (Brazil)
+Average: 16
+Std Deviation: 54.7996350353
+Outlier (198.32.122.2): 160
+2016-06-08_11:35:54
+0 192.168.1.1	122 ms	+0	 ()
+1 10.21.192.1	98 ms	-24	 ()
+2 10.242.1.17	91 ms	-7	 ()
+3 208.178.195.210	147 ms	+56	 (United States)
+4 208.178.195.209	179 ms	+32	 (United States)
+5 198.32.122.2	306 ms	+127	Miami (United States)
+6 * * *
+7 143.107.151.42	276 ms	-30	S?o Paulo (Brazil)
+8 143.107.249.38	291 ms	+15	S?o Paulo (Brazil)
+2016-06-08_11:53:34
+0 192.168.1.1	56 ms	+0	 ()
+1 10.21.192.1	76 ms	+20	 ()
+2 10.242.1.17	71 ms	-5	 ()
+3 208.178.195.210	72 ms	+1	 (United States)
+4 208.178.195.209	75 ms	+3	 (United States)
+5 198.32.122.2	235 ms	+160	Miami (United States)
+6 * * *
+7 143.107.151.42	211 ms	-24	S?o Paulo (Brazil)
+8 143.107.249.38	212 ms	+1	S?o Paulo (Brazil)
+9 200.144.248.54	206 ms	-6	 (Brazil)
+Average: 16
+Std Deviation: 54.9454274713
+Outlier (198.32.122.2): 160
+2016-06-08_12:05:49
+0 192.168.1.1	76 ms	+0	 ()
+1 10.21.192.1	80 ms	+4	 ()
+2 10.242.1.17	75 ms	-5	 ()
+3 208.178.195.210	82 ms	+7	 (United States)
+4 208.178.195.209	92 ms	+10	 (United States)
+5 198.32.122.2	236 ms	+144	Miami (United States)
+6 * * *
+7 143.107.151.42	216 ms	-20	S?o Paulo (Brazil)
+8 143.107.249.38	218 ms	+2	S?o Paulo (Brazil)
+9 200.144.248.54	209 ms	-9	 (Brazil)
+Average: 14
+Std Deviation: 49.3051721425
+Outlier (198.32.122.2): 144
+2016-06-08_12:20:09
+0 192.168.1.1	73 ms	+0	 ()
+1 10.21.192.1	80 ms	+7	 ()
+2 10.242.1.17	76 ms	-4	 ()
+3 208.178.195.210	71 ms	-5	 (United States)
+4 208.178.195.209	79 ms	+8	 (United States)
+5 198.32.122.2	229 ms	+150	Miami (United States)
+6 * * *
+7 143.107.151.42	211 ms	-18	S?o Paulo (Brazil)
+8 143.107.249.38	210 ms	-1	S?o Paulo (Brazil)
+9 200.144.248.54	208 ms	-2	 (Brazil)
+Average: 15
+Std Deviation: 51.1761663277
+Outlier (198.32.122.2): 150

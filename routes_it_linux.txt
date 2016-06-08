@@ -2046,3 +2046,226 @@ traceroute to www.unimi.it (159.149.53.216), 30 hops max, 60 byte packets
 28  * * *
 29  * * *
 30  * * *
+2016-06-08_11:11:17
+traceroute to www.unimi.it (159.149.53.216), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.387 ms  0.414 ms  0.458 ms
+ 2  10.21.192.1 (10.21.192.1)  18.307 ms  18.407 ms  18.417 ms
+ 3  10.242.1.17 (10.242.1.17)  18.960 ms  19.044 ms  19.148 ms
+ 4  global-crossing-argentina-s-a.xe-0-1-0.ar3.eze1.gblx.net (208.178.195.210)  19.673 ms  19.554 ms  23.803 ms
+ 5  xe-0-1-0.ar3.eze1.gblx.net (208.178.195.209)  22.011 ms  22.078 ms  22.054 ms
+ 6  * * *
+ 7  ae-116-3502.bar1.Milan1.Level3.net (4.69.143.57)  248.564 ms ae-115-3501.bar1.Milan1.Level3.net (4.69.143.53)  261.437 ms ae-118-3504.bar1.Milan1.Level3.net (4.69.143.65)  248.581 ms
+ 8  ae-118-3504.bar1.Milan1.Level3.net (4.69.143.65)  248.585 ms ae-115-3501.bar1.Milan1.Level3.net (4.69.143.53)  264.918 ms ae-118-3504.bar1.Milan1.Level3.net (4.69.143.65)  255.961 ms
+ 9  DANTE.bar1.Milan1.Level3.net (213.242.65.82)  264.874 ms DANTE.bar1.Milan1.Level3.net (213.242.65.86)  264.753 ms DANTE.bar1.Milan1.Level3.net (213.242.65.82)  270.709 ms
+10  r-mi2-rx1-mi2.mi2.garr.net (90.147.80.74)  256.405 ms  256.068 ms  261.371 ms
+11  rx1-mi3-rx1-mi2.mi2.garr.net (90.147.80.230)  271.963 ms  258.809 ms  258.890 ms
+12  rx1-mi3-ru-unimi.mi3.garr.net (193.206.129.178)  254.242 ms  249.184 ms  249.064 ms
+13  divtlc-unimi-1.campus.unimi.it (159.149.95.2)  262.304 ms  259.797 ms  259.714 ms
+14  divtlc-unimi-2.campus.unimi.it (159.149.95.6)  256.598 ms  264.078 ms  264.050 ms
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_11:23:19
+traceroute to www.unimi.it (159.149.53.216), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.424 ms  0.425 ms  0.453 ms
+ 2  10.21.192.1 (10.21.192.1)  18.089 ms  18.111 ms  18.260 ms
+ 3  10.242.1.17 (10.242.1.17)  18.592 ms  18.699 ms  18.762 ms
+ 4  global-crossing-argentina-s-a.xe-0-1-0.ar3.eze1.gblx.net (208.178.195.210)  20.855 ms  20.879 ms  27.273 ms
+ 5  xe-0-1-0.ar3.eze1.gblx.net (208.178.195.209)  22.881 ms  23.150 ms  22.997 ms
+ 6  * * *
+ 7  ae-118-3504.bar1.Milan1.Level3.net (4.69.143.65)  243.480 ms ae-116-3502.bar1.Milan1.Level3.net (4.69.143.57)  247.121 ms  247.135 ms
+ 8  ae-118-3504.bar1.Milan1.Level3.net (4.69.143.65)  247.118 ms ae-117-3503.bar1.Milan1.Level3.net (4.69.143.61)  258.919 ms  251.454 ms
+ 9  DANTE.bar1.Milan1.Level3.net (213.242.65.82)  251.400 ms DANTE.bar1.Milan1.Level3.net (213.242.65.86)  267.372 ms  267.306 ms
+10  r-mi2-rx1-mi2.mi2.garr.net (90.147.80.74)  267.493 ms  272.224 ms  272.277 ms
+11  rx1-mi3-rx1-mi2.mi2.garr.net (90.147.80.230)  259.385 ms  248.401 ms  246.631 ms
+12  rx1-mi3-ru-unimi.mi3.garr.net (193.206.129.178)  251.691 ms  251.629 ms  247.382 ms
+13  divtlc-unimi-1.campus.unimi.it (159.149.95.2)  267.037 ms  259.545 ms  267.624 ms
+14  divtlc-unimi-2.campus.unimi.it (159.149.95.6)  246.455 ms  246.348 ms  251.122 ms
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_11:32:10
+traceroute to www.unimi.it (159.149.53.216), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.522 ms  0.508 ms  0.590 ms
+ 2  10.21.192.1 (10.21.192.1)  21.134 ms  21.116 ms  21.259 ms
+ 3  10.242.1.17 (10.242.1.17)  21.561 ms  21.625 ms  21.706 ms
+ 4  global-crossing-argentina-s-a.xe-0-1-0.ar3.eze1.gblx.net (208.178.195.210)  22.440 ms  24.030 ms  24.041 ms
+ 5  xe-0-1-0.ar3.eze1.gblx.net (208.178.195.209)  22.415 ms  26.234 ms  26.152 ms
+ 6  * * *
+ 7  ae-116-3502.bar1.Milan1.Level3.net (4.69.143.57)  243.650 ms ae-118-3504.bar1.Milan1.Level3.net (4.69.143.65)  244.090 ms  247.555 ms
+ 8  ae-118-3504.bar1.Milan1.Level3.net (4.69.143.65)  247.626 ms ae-117-3503.bar1.Milan1.Level3.net (4.69.143.61)  259.927 ms ae-116-3502.bar1.Milan1.Level3.net (4.69.143.57)  251.778 ms
+ 9  DANTE.bar1.Milan1.Level3.net (213.242.65.86)  251.842 ms DANTE.bar1.Milan1.Level3.net (213.242.65.82)  251.791 ms  259.520 ms
+10  r-mi2-rx1-mi2.mi2.garr.net (90.147.80.74)  270.772 ms  274.481 ms  274.362 ms
+11  rx1-mi3-rx1-mi2.mi2.garr.net (90.147.80.230)  264.679 ms  243.922 ms  245.884 ms
+12  rx1-mi3-ru-unimi.mi3.garr.net (193.206.129.178)  247.978 ms  251.216 ms  247.053 ms
+13  divtlc-unimi-1.campus.unimi.it (159.149.95.2)  263.833 ms  263.009 ms  255.332 ms
+14  divtlc-unimi-2.campus.unimi.it (159.149.95.6)  254.991 ms  251.180 ms  256.703 ms
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_11:50:16
+traceroute to www.unimi.it (159.149.53.216), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.393 ms  0.390 ms  0.468 ms
+ 2  10.21.192.1 (10.21.192.1)  16.321 ms  16.415 ms  16.523 ms
+ 3  10.242.1.17 (10.242.1.17)  17.364 ms  17.862 ms  17.967 ms
+ 4  global-crossing-argentina-s-a.xe-0-1-0.ar3.eze1.gblx.net (208.178.195.210)  18.111 ms  21.681 ms  21.795 ms
+ 5  xe-0-1-0.ar3.eze1.gblx.net (208.178.195.209)  20.925 ms  20.825 ms  24.370 ms
+ 6  * * *
+ 7  ae-117-3503.bar1.Milan1.Level3.net (4.69.143.61)  294.971 ms ae-116-3502.bar1.Milan1.Level3.net (4.69.143.57)  279.753 ms ae-115-3501.bar1.Milan1.Level3.net (4.69.143.53)  295.017 ms
+ 8  ae-117-3503.bar1.Milan1.Level3.net (4.69.143.61)  294.958 ms ae-118-3504.bar1.Milan1.Level3.net (4.69.143.65)  286.422 ms ae-116-3502.bar1.Milan1.Level3.net (4.69.143.57)  286.214 ms
+ 9  DANTE.bar1.Milan1.Level3.net (213.242.65.86)  286.566 ms  287.009 ms DANTE.bar1.Milan1.Level3.net (213.242.65.82)  286.307 ms
+10  r-mi2-rx1-mi2.mi2.garr.net (90.147.80.74)  295.658 ms  295.629 ms  295.980 ms
+11  rx1-mi3-rx1-mi2.mi2.garr.net (90.147.80.230)  286.974 ms  300.595 ms  293.884 ms
+12  rx1-mi3-ru-unimi.mi3.garr.net (193.206.129.178)  294.174 ms  294.640 ms  294.242 ms
+13  divtlc-unimi-1.campus.unimi.it (159.149.95.2)  302.335 ms  302.942 ms  306.627 ms
+14  divtlc-unimi-2.campus.unimi.it (159.149.95.6)  294.567 ms  294.474 ms  293.557 ms
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_12:01:43
+traceroute to www.unimi.it (159.149.53.216), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.455 ms  0.408 ms  0.437 ms
+ 2  10.21.192.1 (10.21.192.1)  17.818 ms  17.823 ms  17.826 ms
+ 3  10.242.1.17 (10.242.1.17)  20.100 ms  20.126 ms  20.281 ms
+ 4  global-crossing-argentina-s-a.xe-0-1-0.ar3.eze1.gblx.net (208.178.195.210)  26.423 ms  28.678 ms  28.767 ms
+ 5  xe-0-1-0.ar3.eze1.gblx.net (208.178.195.209)  26.441 ms  26.378 ms  26.380 ms
+ 6  * * *
+ 7  ae-117-3503.bar1.Milan1.Level3.net (4.69.143.61)  268.617 ms ae-115-3501.bar1.Milan1.Level3.net (4.69.143.53)  268.777 ms  268.542 ms
+ 8  ae-116-3502.bar1.Milan1.Level3.net (4.69.143.57)  256.019 ms ae-115-3501.bar1.Milan1.Level3.net (4.69.143.53)  268.362 ms ae-116-3502.bar1.Milan1.Level3.net (4.69.143.57)  256.062 ms
+ 9  DANTE.bar1.Milan1.Level3.net (213.242.65.82)  255.985 ms DANTE.bar1.Milan1.Level3.net (213.242.65.86)  259.413 ms DANTE.bar1.Milan1.Level3.net (213.242.65.82)  255.836 ms
+10  r-mi2-rx1-mi2.mi2.garr.net (90.147.80.74)  274.912 ms  275.134 ms  275.014 ms
+11  rx1-mi3-rx1-mi2.mi2.garr.net (90.147.80.230)  262.389 ms  243.377 ms  245.996 ms
+12  rx1-mi3-ru-unimi.mi3.garr.net (193.206.129.178)  249.858 ms  250.902 ms  247.580 ms
+13  divtlc-unimi-1.campus.unimi.it (159.149.95.2)  256.483 ms  256.512 ms  262.325 ms
+14  divtlc-unimi-2.campus.unimi.it (159.149.95.6)  250.503 ms  254.481 ms  247.997 ms
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_12:16:43
+traceroute to www.unimi.it (159.149.53.216), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.359 ms  0.410 ms  0.444 ms
+ 2  10.21.192.1 (10.21.192.1)  16.982 ms  17.095 ms  17.100 ms
+ 3  10.242.1.17 (10.242.1.17)  17.510 ms  17.610 ms  18.338 ms
+ 4  global-crossing-argentina-s-a.xe-0-1-0.ar3.eze1.gblx.net (208.178.195.210)  17.749 ms  18.211 ms  21.578 ms
+ 5  xe-0-1-0.ar3.eze1.gblx.net (208.178.195.209)  21.668 ms  21.432 ms  21.563 ms
+ 6  * * *
+ 7  ae-116-3502.bar1.Milan1.Level3.net (4.69.143.57)  247.752 ms ae-115-3501.bar1.Milan1.Level3.net (4.69.143.53)  259.707 ms ae-118-3504.bar1.Milan1.Level3.net (4.69.143.65)  259.677 ms
+ 8  ae-116-3502.bar1.Milan1.Level3.net (4.69.143.57)  250.870 ms ae-118-3504.bar1.Milan1.Level3.net (4.69.143.65)  266.587 ms  266.845 ms
+ 9  DANTE.bar1.Milan1.Level3.net (213.242.65.82)  250.818 ms  256.364 ms  256.463 ms
+10  r-mi2-rx1-mi2.mi2.garr.net (90.147.80.74)  271.104 ms  271.220 ms  275.602 ms
+11  rx1-mi3-rx1-mi2.mi2.garr.net (90.147.80.230)  263.641 ms  246.459 ms  243.501 ms
+12  rx1-mi3-ru-unimi.mi3.garr.net (193.206.129.178)  248.715 ms  246.505 ms  246.479 ms
+13  divtlc-unimi-1.campus.unimi.it (159.149.95.2)  248.373 ms  248.253 ms *
+14  * divtlc-unimi-2.campus.unimi.it (159.149.95.6)  251.114 ms  246.925 ms
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_12:29:20
+traceroute to www.unimi.it (159.149.53.216), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.360 ms  0.413 ms  0.459 ms
+ 2  10.21.192.1 (10.21.192.1)  18.904 ms  19.015 ms  19.597 ms
+ 3  10.242.1.17 (10.242.1.17)  19.739 ms  19.951 ms  19.949 ms
+ 4  global-crossing-argentina-s-a.xe-0-1-0.ar3.eze1.gblx.net (208.178.195.210)  23.121 ms  23.371 ms  23.495 ms
+ 5  xe-0-1-0.ar3.eze1.gblx.net (208.178.195.209)  23.231 ms  26.919 ms  27.032 ms
+ 6  * * *
+ 7  ae-117-3503.bar1.Milan1.Level3.net (4.69.143.61)  259.607 ms ae-118-3504.bar1.Milan1.Level3.net (4.69.143.65)  259.467 ms  264.253 ms
+ 8  ae-115-3501.bar1.Milan1.Level3.net (4.69.143.53)  264.641 ms ae-117-3503.bar1.Milan1.Level3.net (4.69.143.61)  264.251 ms ae-116-3502.bar1.Milan1.Level3.net (4.69.143.57)  264.152 ms
+ 9  DANTE.bar1.Milan1.Level3.net (213.242.65.82)  264.332 ms  275.706 ms DANTE.bar1.Milan1.Level3.net (213.242.65.86)  255.771 ms
+10  r-mi2-rx1-mi2.mi2.garr.net (90.147.80.74)  256.078 ms  260.237 ms  260.158 ms
+11  rx1-mi3-rx1-mi2.mi2.garr.net (90.147.80.230)  311.681 ms  265.159 ms  259.354 ms
+12  rx1-mi3-ru-unimi.mi3.garr.net (193.206.129.178)  256.212 ms  261.002 ms  260.542 ms
+13  divtlc-unimi-1.campus.unimi.it (159.149.95.2)  255.087 ms  247.308 ms  247.168 ms
+14  divtlc-unimi-2.campus.unimi.it (159.149.95.6)  251.689 ms  256.019 ms  255.673 ms
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *

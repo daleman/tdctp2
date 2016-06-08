@@ -2078,3 +2078,227 @@ traceroute to www.iitkgp.ac.in (203.110.245.243), 30 hops max, 60 byte packets
 28  * * *
 29  * * *
 30  * * *
+2016-06-08_11:07:46
+traceroute to www.iitkgp.ac.in (203.110.245.243), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.462 ms  0.472 ms  0.629 ms
+ 2  10.21.192.1 (10.21.192.1)  20.323 ms  20.376 ms  20.360 ms
+ 3  10.242.1.17 (10.242.1.17)  20.790 ms  20.871 ms  20.950 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  23.234 ms  28.096 ms  28.163 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  24.389 ms  24.400 ms  30.400 ms
+ 6  xe-1-0-0.marsig2.mar.seabone.net (213.144.176.212)  265.486 ms xe-0-2-0.marsig2.mar.seabone.net (213.144.176.222)  253.598 ms xe-1-0-0.marsig2.mar.seabone.net (213.144.176.212)  247.701 ms
+ 7  bharti.marsig2.mar.seabone.net (213.144.176.186)  258.212 ms bharti.marsig2.mar.seabone.net (213.144.176.182)  291.650 ms bharti.marsig2.mar.seabone.net (213.144.176.190)  258.028 ms
+ 8  182.79.252.214 (182.79.252.214)  397.423 ms 182.79.248.50 (182.79.248.50)  408.529 ms 182.79.237.209 (182.79.237.209)  407.567 ms
+ 9  abts-north-static-218.176.144.59.airtelbroadband.in (59.144.176.218)  415.504 ms  409.116 ms  408.618 ms
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_11:18:34
+traceroute to www.iitkgp.ac.in (203.110.245.243), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.427 ms  0.493 ms  0.533 ms
+ 2  10.21.192.1 (10.21.192.1)  19.153 ms  19.175 ms  19.334 ms
+ 3  10.242.1.17 (10.242.1.17)  19.868 ms  19.952 ms  20.070 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  20.415 ms  20.776 ms  20.842 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  23.757 ms  23.970 ms  23.783 ms
+ 6  xe-1-0-0.marsig2.mar.seabone.net (213.144.176.212)  264.446 ms xe-11-0-0.marsig2.mar.seabone.net (213.144.176.224)  267.723 ms xe-7-3-0.marsig2.mar.seabone.net (213.144.176.172)  251.495 ms
+ 7  bharti.marsig2.mar.seabone.net (213.144.176.206)  252.225 ms bharti.marsig2.mar.seabone.net (213.144.176.190)  252.223 ms bharti.marsig2.mar.seabone.net (213.144.176.206)  255.508 ms
+ 8  182.79.252.214 (182.79.252.214)  407.532 ms * *
+ 9  abts-north-static-218.176.144.59.airtelbroadband.in (59.144.176.218)  415.406 ms  420.369 ms  409.906 ms
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_11:29:34
+traceroute to www.iitkgp.ac.in (203.110.245.243), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.483 ms  0.469 ms  0.491 ms
+ 2  10.21.192.1 (10.21.192.1)  21.052 ms  21.066 ms  21.056 ms
+ 3  10.242.1.17 (10.242.1.17)  21.480 ms  21.579 ms  21.641 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  24.994 ms  24.987 ms  26.508 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  26.547 ms  26.692 ms  26.765 ms
+ 6  xe-11-1-0.marsig2.mar.seabone.net (213.144.176.214)  262.956 ms xe-0-2-0.marsig2.mar.seabone.net (213.144.176.222)  252.113 ms xe-11-1-0.marsig2.mar.seabone.net (213.144.176.214)  246.597 ms
+ 7  bharti.marsig2.mar.seabone.net (213.144.176.190)  255.734 ms bharti.marsig2.mar.seabone.net (213.144.176.186)  257.203 ms bharti.marsig2.mar.seabone.net (213.144.176.182)  257.261 ms
+ 8  182.79.255.249 (182.79.255.249)  391.717 ms 182.79.252.58 (182.79.252.58)  403.177 ms 182.79.252.214 (182.79.252.214)  403.040 ms
+ 9  abts-north-static-218.176.144.59.airtelbroadband.in (59.144.176.218)  407.266 ms  409.876 ms  418.240 ms
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_11:44:28
+traceroute to www.iitkgp.ac.in (203.110.245.243), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.366 ms  0.414 ms  0.456 ms
+ 2  10.21.192.1 (10.21.192.1)  17.174 ms  17.181 ms  17.230 ms
+ 3  10.242.1.17 (10.242.1.17)  18.095 ms  18.201 ms  18.768 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  28.437 ms  28.613 ms  28.604 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  28.427 ms  28.407 ms  28.578 ms
+ 6  xe-11-0-0.marsig2.mar.seabone.net (213.144.176.224)  259.023 ms  246.851 ms xe-0-2-0.marsig2.mar.seabone.net (213.144.176.222)  270.631 ms
+ 7  bharti.marsig2.mar.seabone.net (213.144.176.190)  251.645 ms  260.035 ms bharti.marsig2.mar.seabone.net (213.144.176.186)  251.481 ms
+ 8  182.79.252.210 (182.79.252.210)  405.733 ms 182.79.237.205 (182.79.237.205)  394.660 ms 182.79.252.58 (182.79.252.58)  402.475 ms
+ 9  abts-north-static-218.176.144.59.airtelbroadband.in (59.144.176.218)  403.568 ms  414.503 ms  405.682 ms
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_11:59:03
+traceroute to www.iitkgp.ac.in (203.110.245.243), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.491 ms  0.465 ms  0.475 ms
+ 2  10.21.192.1 (10.21.192.1)  18.097 ms  18.183 ms  18.175 ms
+ 3  10.242.1.17 (10.242.1.17)  18.672 ms  18.735 ms  18.864 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  22.981 ms  23.079 ms  23.369 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  23.526 ms  23.494 ms  23.518 ms
+ 6  xe-3-3-0.marsig2.mar.seabone.net (213.144.176.174)  267.128 ms  247.601 ms xe-7-3-0.marsig2.mar.seabone.net (213.144.176.172)  246.485 ms
+ 7  bharti.marsig2.mar.seabone.net (213.144.176.182)  246.547 ms bharti.marsig2.mar.seabone.net (213.144.176.190)  274.410 ms bharti.marsig2.mar.seabone.net (213.144.176.186)  251.312 ms
+ 8  * * 182.79.237.209 (182.79.237.209)  408.648 ms
+ 9  abts-north-static-218.176.144.59.airtelbroadband.in (59.144.176.218)  408.663 ms  408.657 ms  410.452 ms
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_12:10:00
+traceroute to www.iitkgp.ac.in (203.110.245.243), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.347 ms  0.395 ms  0.428 ms
+ 2  10.21.192.1 (10.21.192.1)  22.021 ms  22.108 ms  22.120 ms
+ 3  10.242.1.17 (10.242.1.17)  22.503 ms  22.614 ms  22.722 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  23.554 ms  26.711 ms  26.849 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  25.396 ms  30.700 ms  30.802 ms
+ 6  xe-11-0-0.marsig2.mar.seabone.net (213.144.176.224)  272.173 ms xe-1-0-0.marsig2.mar.seabone.net (213.144.176.212)  248.606 ms  258.482 ms
+ 7  bharti.marsig2.mar.seabone.net (213.144.176.186)  263.816 ms bharti.marsig2.mar.seabone.net (213.144.176.190)  258.628 ms bharti.marsig2.mar.seabone.net (213.144.176.206)  258.604 ms
+ 8  * 182.79.237.205 (182.79.237.205)  403.800 ms *
+ 9  abts-north-static-218.176.144.59.airtelbroadband.in (59.144.176.218)  423.727 ms  419.750 ms  439.716 ms
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_12:25:01
+traceroute to www.iitkgp.ac.in (203.110.245.243), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.360 ms  0.391 ms  0.465 ms
+ 2  10.21.192.1 (10.21.192.1)  22.004 ms  22.104 ms  22.118 ms
+ 3  10.242.1.17 (10.242.1.17)  22.556 ms  22.669 ms  22.776 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  23.243 ms  23.348 ms  23.459 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  26.197 ms  26.322 ms  31.408 ms
+ 6  xe-7-3-0.marsig2.mar.seabone.net (213.144.176.172)  270.331 ms xe-11-0-0.marsig2.mar.seabone.net (213.144.176.224)  246.836 ms xe-7-3-0.marsig2.mar.seabone.net (213.144.176.172)  307.835 ms
+ 7  bharti.marsig2.mar.seabone.net (213.144.176.206)  247.871 ms  252.156 ms bharti.marsig2.mar.seabone.net (213.144.176.190)  253.773 ms
+ 8  182.79.252.58 (182.79.252.58)  425.846 ms 182.79.237.209 (182.79.237.209)  438.654 ms 182.79.252.210 (182.79.252.210)  403.866 ms
+ 9  abts-north-static-218.176.144.59.airtelbroadband.in (59.144.176.218)  417.052 ms  415.825 ms  423.784 ms
+10  * * *
+11  * * *
+12  * * *
+13  * * *
+14  * * *
+15  * * *
+16  * * *
+17  * * *
+18  * * *
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *

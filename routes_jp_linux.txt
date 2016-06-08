@@ -2078,3 +2078,227 @@ traceroute to www.u-tokyo.ac.jp (210.152.135.178), 30 hops max, 60 byte packets
 28  * * *
 29  * * *
 30  * * *
+2016-06-08_11:04:33
+traceroute to www.u-tokyo.ac.jp (210.152.135.178), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.424 ms  0.440 ms  0.462 ms
+ 2  10.21.192.1 (10.21.192.1)  28.711 ms  28.780 ms  28.775 ms
+ 3  10.242.1.17 (10.242.1.17)  33.532 ms  33.591 ms  34.209 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  37.621 ms  37.688 ms  37.747 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  34.039 ms  33.898 ms  33.746 ms
+ 6  ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  63.290 ms et-4-1-0.sanpaolo8.spa.seabone.net (195.22.219.75)  46.526 ms ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  43.630 ms
+ 7  ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  67.591 ms et-4-1-0.sanpaolo8.spa.seabone.net (195.22.219.75)  45.961 ms ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  45.972 ms
+ 8  149.3.181.65 (149.3.181.65)  48.131 ms  48.101 ms  39.656 ms
+ 9  ae-4.r24.nycmny01.us.bb.gin.ntt.net (129.250.2.227)  153.770 ms  153.719 ms  151.659 ms
+10  ae-2.r20.sttlwa01.us.bb.gin.ntt.net (129.250.4.13)  203.056 ms  206.785 ms  203.004 ms
+11  ae-0.r21.sttlwa01.us.bb.gin.ntt.net (129.250.2.54)  211.215 ms  206.838 ms  199.289 ms
+12  ae-2.r20.osakjp02.jp.bb.gin.ntt.net (129.250.3.86)  324.728 ms  295.276 ms  319.147 ms
+13  * ae-4.r22.osakjp02.jp.bb.gin.ntt.net (129.250.6.188)  311.190 ms *
+14  ae-2.r01.osakjp02.jp.bb.gin.ntt.net (129.250.3.199)  295.612 ms  299.794 ms ae-1.r01.osakjp02.jp.bb.gin.ntt.net (129.250.2.255)  315.321 ms
+15  xe-0-4-0-7.r01.osakjp02.jp.ce.gin.ntt.net (61.200.80.218)  289.917 ms  320.107 ms  304.492 ms
+16  ae0.ostcr01.idc.jp (158.205.192.173)  324.664 ms  329.432 ms  324.735 ms
+17  158.205.192.86 (158.205.192.86)  324.514 ms  320.134 ms  345.388 ms
+18  po2.l321.fk1.eg.idc.jp (158.205.121.250)  313.401 ms  304.558 ms  315.556 ms
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_11:15:04
+traceroute to www.u-tokyo.ac.jp (210.152.135.178), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.470 ms  0.479 ms  0.636 ms
+ 2  10.21.192.1 (10.21.192.1)  21.302 ms  21.388 ms  21.371 ms
+ 3  10.242.1.17 (10.242.1.17)  21.782 ms  21.797 ms  21.928 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  24.906 ms  25.089 ms  24.963 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  25.878 ms  25.986 ms  25.737 ms
+ 6  et-10-1-0.sanpaolo8.spa.seabone.net (195.22.219.145)  59.017 ms et-4-1-0.sanpaolo8.spa.seabone.net (195.22.219.75)  39.589 ms et-10-1-0.sanpaolo8.spa.seabone.net (195.22.219.145)  43.477 ms
+ 7  ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  39.531 ms et-10-1-0.sanpaolo8.spa.seabone.net (195.22.219.145)  47.751 ms ae7.sanpaolo8.spa.seabone.net (195.22.219.17)  47.825 ms
+ 8  149.3.181.65 (149.3.181.65)  50.531 ms  50.551 ms  55.014 ms
+ 9  ae-4.r24.nycmny01.us.bb.gin.ntt.net (129.250.2.227)  164.639 ms  164.573 ms  166.350 ms
+10  ae-2.r20.sttlwa01.us.bb.gin.ntt.net (129.250.4.13)  213.509 ms  213.641 ms  213.503 ms
+11  ae-0.r21.sttlwa01.us.bb.gin.ntt.net (129.250.2.54)  224.874 ms  195.594 ms  197.701 ms
+12  ae-2.r20.osakjp02.jp.bb.gin.ntt.net (129.250.3.86)  296.346 ms  319.489 ms  307.459 ms
+13  ae-4.r23.osakjp02.jp.bb.gin.ntt.net (129.250.6.90)  313.767 ms ae-4.r22.osakjp02.jp.bb.gin.ntt.net (129.250.6.188)  339.423 ms ae-4.r23.osakjp02.jp.bb.gin.ntt.net (129.250.6.90)  313.599 ms
+14  ae-1.r01.osakjp02.jp.bb.gin.ntt.net (129.250.2.255)  321.316 ms ae-2.r01.osakjp02.jp.bb.gin.ntt.net (129.250.3.199)  295.510 ms ae-1.r01.osakjp02.jp.bb.gin.ntt.net (129.250.2.255)  307.391 ms
+15  xe-0-4-0-7.r01.osakjp02.jp.ce.gin.ntt.net (61.200.80.218)  299.310 ms  317.677 ms  301.605 ms
+16  ae0.ostcr01.idc.jp (158.205.192.173)  333.057 ms  339.392 ms  335.629 ms
+17  158.205.192.86 (158.205.192.86)  318.986 ms  319.624 ms  307.878 ms
+18  po2.l321.fk1.eg.idc.jp (158.205.121.250)  309.727 ms  293.657 ms  315.789 ms
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_11:26:59
+traceroute to www.u-tokyo.ac.jp (210.152.135.178), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.426 ms  0.432 ms  0.912 ms
+ 2  10.21.192.1 (10.21.192.1)  19.616 ms  19.705 ms  19.800 ms
+ 3  10.242.1.17 (10.242.1.17)  20.202 ms  20.337 ms  20.417 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  20.801 ms  20.906 ms  27.286 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  23.388 ms  23.255 ms  23.472 ms
+ 6  et-10-1-0.sanpaolo8.spa.seabone.net (195.22.219.145)  55.277 ms ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  39.750 ms et-4-1-0.sanpaolo8.spa.seabone.net (195.22.219.75)  37.100 ms
+ 7  et-4-1-0.sanpaolo8.spa.seabone.net (195.22.219.75)  41.081 ms et-10-1-0.sanpaolo8.spa.seabone.net (195.22.219.145)  40.816 ms ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  40.932 ms
+ 8  149.3.181.65 (149.3.181.65)  46.746 ms  46.455 ms  46.335 ms
+ 9  ae-4.r24.nycmny01.us.bb.gin.ntt.net (129.250.2.227)  162.664 ms  162.234 ms  162.163 ms
+10  ae-2.r20.sttlwa01.us.bb.gin.ntt.net (129.250.4.13)  224.770 ms  225.511 ms  215.628 ms
+11  ae-0.r21.sttlwa01.us.bb.gin.ntt.net (129.250.2.54)  223.627 ms  201.158 ms  201.138 ms
+12  ae-2.r20.osakjp02.jp.bb.gin.ntt.net (129.250.3.86)  311.763 ms  295.775 ms  322.755 ms
+13  ae-4.r22.osakjp02.jp.bb.gin.ntt.net (129.250.6.188)  303.816 ms ae-4.r23.osakjp02.jp.bb.gin.ntt.net (129.250.6.90)  322.867 ms ae-4.r22.osakjp02.jp.bb.gin.ntt.net (129.250.6.188)  313.978 ms
+14  ae-1.r01.osakjp02.jp.bb.gin.ntt.net (129.250.2.255)  311.730 ms  290.945 ms  290.773 ms
+15  xe-0-4-0-7.r01.osakjp02.jp.ce.gin.ntt.net (61.200.80.218)  300.461 ms  303.705 ms  315.696 ms
+16  ae0.ostcr01.idc.jp (158.205.192.173)  347.714 ms  344.966 ms  320.853 ms
+17  158.205.192.86 (158.205.192.86)  307.567 ms  303.854 ms  320.862 ms
+18  po2.l321.fk1.eg.idc.jp (158.205.121.250)  307.884 ms  291.767 ms  295.063 ms
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_11:39:18
+traceroute to www.u-tokyo.ac.jp (210.152.135.178), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.377 ms  0.421 ms  0.463 ms
+ 2  10.21.192.1 (10.21.192.1)  20.162 ms  20.182 ms  20.699 ms
+ 3  10.242.1.17 (10.242.1.17)  20.782 ms  21.340 ms  21.372 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  21.572 ms  23.159 ms  29.226 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  24.952 ms  24.763 ms  29.394 ms
+ 6  ae7.sanpaolo8.spa.seabone.net (195.22.219.17)  59.213 ms et-10-1-0.sanpaolo8.spa.seabone.net (195.22.219.145)  76.075 ms et-4-1-0.sanpaolo8.spa.seabone.net (195.22.219.75)  43.262 ms
+ 7  ae7.sanpaolo8.spa.seabone.net (195.22.219.17)  42.854 ms et-4-1-0.sanpaolo8.spa.seabone.net (195.22.219.75)  43.063 ms ae7.sanpaolo8.spa.seabone.net (195.22.219.17)  42.884 ms
+ 8  149.3.181.65 (149.3.181.65)  65.766 ms  68.372 ms  68.453 ms
+ 9  ae-4.r24.nycmny01.us.bb.gin.ntt.net (129.250.2.227)  161.844 ms  161.590 ms  161.693 ms
+10  ae-2.r20.sttlwa01.us.bb.gin.ntt.net (129.250.4.13)  219.307 ms  212.683 ms  219.403 ms
+11  ae-0.r21.sttlwa01.us.bb.gin.ntt.net (129.250.2.54)  236.786 ms  196.793 ms  196.870 ms
+12  ae-2.r20.osakjp02.jp.bb.gin.ntt.net (129.250.3.86)  327.318 ms  303.076 ms  310.453 ms
+13  ae-4.r22.osakjp02.jp.bb.gin.ntt.net (129.250.6.188)  322.085 ms ae-4.r23.osakjp02.jp.bb.gin.ntt.net (129.250.6.90)  299.778 ms  315.727 ms
+14  ae-1.r01.osakjp02.jp.bb.gin.ntt.net (129.250.2.255)  328.527 ms  288.559 ms  306.669 ms
+15  xe-0-4-0-7.r01.osakjp02.jp.ce.gin.ntt.net (61.200.80.218)  300.413 ms  299.147 ms  301.173 ms
+16  ae0.ostcr01.idc.jp (158.205.192.173)  337.997 ms  338.028 ms  342.998 ms
+17  158.205.192.86 (158.205.192.86)  352.099 ms  332.635 ms  329.099 ms
+18  po2.l321.fk1.eg.idc.jp (158.205.121.250)  322.013 ms  341.066 ms  316.616 ms
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_11:55:19
+traceroute to www.u-tokyo.ac.jp (210.152.135.178), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.363 ms  0.403 ms  0.449 ms
+ 2  10.21.192.1 (10.21.192.1)  19.032 ms  19.118 ms  19.126 ms
+ 3  10.242.1.17 (10.242.1.17)  19.634 ms  19.748 ms  20.102 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  20.257 ms  22.690 ms  22.782 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  21.894 ms  25.778 ms  25.846 ms
+ 6  ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  53.902 ms ae7.sanpaolo8.spa.seabone.net (195.22.219.17)  39.529 ms ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  39.604 ms
+ 7  ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  42.535 ms et-4-1-0.sanpaolo8.spa.seabone.net (195.22.219.75)  42.802 ms et-10-1-0.sanpaolo8.spa.seabone.net (195.22.219.145)  42.381 ms
+ 8  149.3.181.65 (149.3.181.65)  47.565 ms  48.670 ms  48.547 ms
+ 9  ae-4.r24.nycmny01.us.bb.gin.ntt.net (129.250.2.227)  159.546 ms  164.715 ms  164.554 ms
+10  ae-2.r20.sttlwa01.us.bb.gin.ntt.net (129.250.4.13)  211.772 ms  211.425 ms  214.964 ms
+11  ae-0.r21.sttlwa01.us.bb.gin.ntt.net (129.250.2.54)  219.336 ms  200.877 ms  201.424 ms
+12  ae-2.r20.osakjp02.jp.bb.gin.ntt.net (129.250.3.86)  317.808 ms  313.418 ms  306.580 ms
+13  ae-4.r22.osakjp02.jp.bb.gin.ntt.net (129.250.6.188)  331.761 ms * *
+14  ae-1.r01.osakjp02.jp.bb.gin.ntt.net (129.250.2.255)  299.709 ms  290.890 ms  292.346 ms
+15  xe-0-4-0-7.r01.osakjp02.jp.ce.gin.ntt.net (61.200.80.218)  303.530 ms  311.819 ms  311.716 ms
+16  ae0.ostcr01.idc.jp (158.205.192.173)  351.695 ms  343.691 ms  336.651 ms
+17  158.205.192.86 (158.205.192.86)  315.499 ms  327.834 ms  305.001 ms
+18  po2.l321.fk1.eg.idc.jp (158.205.121.250)  295.816 ms  303.808 ms  311.127 ms
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_12:07:00
+traceroute to www.u-tokyo.ac.jp (210.152.135.178), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.318 ms  0.377 ms  0.428 ms
+ 2  10.21.192.1 (10.21.192.1)  18.532 ms  18.593 ms  18.606 ms
+ 3  10.242.1.17 (10.242.1.17)  19.130 ms  19.232 ms  19.338 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  20.433 ms  20.547 ms  26.057 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  23.564 ms  23.659 ms  23.883 ms
+ 6  ae7.sanpaolo8.spa.seabone.net (195.22.219.17)  54.074 ms ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  39.858 ms et-4-1-0.sanpaolo8.spa.seabone.net (195.22.219.75)  39.916 ms
+ 7  ae7.sanpaolo8.spa.seabone.net (195.22.219.17)  42.325 ms ae6.sanpaolo8.spa.seabone.net (195.22.219.3)  43.845 ms  42.433 ms
+ 8  149.3.181.65 (149.3.181.65)  43.976 ms  48.359 ms  48.228 ms
+ 9  ae-4.r24.nycmny01.us.bb.gin.ntt.net (129.250.2.227)  160.292 ms  160.512 ms  159.943 ms
+10  ae-2.r20.sttlwa01.us.bb.gin.ntt.net (129.250.4.13)  211.045 ms  211.477 ms  211.132 ms
+11  ae-0.r21.sttlwa01.us.bb.gin.ntt.net (129.250.2.54)  210.877 ms  195.730 ms  207.914 ms
+12  ae-2.r20.osakjp02.jp.bb.gin.ntt.net (129.250.3.86)  303.138 ms  295.925 ms  335.859 ms
+13  ae-4.r22.osakjp02.jp.bb.gin.ntt.net (129.250.6.188)  303.196 ms  341.986 ms ae-4.r23.osakjp02.jp.bb.gin.ntt.net (129.250.6.90)  307.023 ms
+14  ae-2.r01.osakjp02.jp.bb.gin.ntt.net (129.250.3.199)  306.885 ms  283.742 ms  314.731 ms
+15  xe-0-4-0-7.r01.osakjp02.jp.ce.gin.ntt.net (61.200.80.218)  285.825 ms  291.747 ms  288.538 ms
+16  ae0.ostcr01.idc.jp (158.205.192.173)  324.185 ms  350.628 ms  350.577 ms
+17  158.205.192.86 (158.205.192.86)  338.363 ms  319.826 ms  315.664 ms
+18  po2.l321.fk1.eg.idc.jp (158.205.121.250)  321.416 ms  319.567 ms  303.605 ms
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
+2016-06-08_12:22:06
+traceroute to www.u-tokyo.ac.jp (210.152.135.178), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.337 ms  0.386 ms  0.430 ms
+ 2  10.21.192.1 (10.21.192.1)  21.005 ms  21.152 ms  21.149 ms
+ 3  10.242.1.17 (10.242.1.17)  21.374 ms  21.731 ms  21.844 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  29.650 ms  29.753 ms  29.847 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  27.360 ms  27.256 ms  27.463 ms
+ 6  ae7.sanpaolo8.spa.seabone.net (195.22.219.17)  61.105 ms et-4-1-0.sanpaolo8.spa.seabone.net (195.22.219.75)  39.836 ms  37.432 ms
+ 7  ae7.sanpaolo8.spa.seabone.net (195.22.219.17)  41.270 ms et-10-1-0.sanpaolo8.spa.seabone.net (195.22.219.145)  41.395 ms  41.506 ms
+ 8  149.3.181.65 (149.3.181.65)  46.759 ms  47.248 ms  46.850 ms
+ 9  ae-4.r24.nycmny01.us.bb.gin.ntt.net (129.250.2.227)  164.546 ms  163.798 ms  164.580 ms
+10  ae-2.r20.sttlwa01.us.bb.gin.ntt.net (129.250.4.13)  214.549 ms  219.740 ms  214.958 ms
+11  ae-0.r21.sttlwa01.us.bb.gin.ntt.net (129.250.2.54)  223.782 ms  204.714 ms  197.376 ms
+12  ae-2.r20.osakjp02.jp.bb.gin.ntt.net (129.250.3.86)  293.695 ms  315.787 ms  293.497 ms
+13  ae-4.r22.osakjp02.jp.bb.gin.ntt.net (129.250.6.188)  311.363 ms ae-4.r23.osakjp02.jp.bb.gin.ntt.net (129.250.6.90)  317.142 ms  324.636 ms
+14  ae-1.r01.osakjp02.jp.bb.gin.ntt.net (129.250.2.255)  324.733 ms  291.848 ms  307.793 ms
+15  xe-0-4-0-7.r01.osakjp02.jp.ce.gin.ntt.net (61.200.80.218)  289.665 ms  296.595 ms  282.056 ms
+16  ae0.ostcr01.idc.jp (158.205.192.173)  336.357 ms  335.768 ms  322.299 ms
+17  158.205.192.86 (158.205.192.86)  300.118 ms  302.118 ms  324.263 ms
+18  po2.l321.fk1.eg.idc.jp (158.205.121.250)  292.851 ms  303.830 ms  321.536 ms
+19  * * *
+20  * * *
+21  * * *
+22  * * *
+23  * * *
+24  * * *
+25  * * *
+26  * * *
+27  * * *
+28  * * *
+29  * * *
+30  * * *
