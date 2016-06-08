@@ -33,6 +33,7 @@ def gnuploter(exp):
 		"" with l ls 2, \
 		"''' + exp + '''.cor" with linespoint pt 7 lc rgb "black" lw 2
 	''')
+	f.close()
 
 if __name__ == '__main__':
 	if len(sys.argv) > 1:
@@ -107,14 +108,14 @@ if __name__ == '__main__':
 	
 	# tiempo total por hora
 	file1 = open(dest+"_congestion.dat","a")
-	file1.write(hora+"\t"+sum(map(lambda x: x[0], relatives)))
+	file1.write(hora+"\t"+str(sum(map(lambda x: x[0], relatives))))
 	file1.close()
 
-	f = open(dest + hora + ".cor","a")
+	file2 = open(dest + hora + ".cor","a")
 	for g in geos:
 		if abs (g["latitude"]) > 0.0001 and abs(g["longitude"]) > 0.0001 :
-			f.write(str(g["longitude"]) + "\t" + str(g["latitude"]) + "\n")
-	f.close()
+			file2.write(str(g["longitude"]) + "\t" + str(g["latitude"]) + "\n")
+	file2.close()
 	relatives.sort(key=lambda x : x[0]) # Ordeno segun el tiempo relativo
 	sample_mean = sum(map(lambda x: x[0], relatives))/len(relatives)
 	print("Average: " + str(sample_mean))##
