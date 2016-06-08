@@ -1149,3 +1149,408 @@ Outlier (195.22.206.190): 187
 Average: 31
 Std Deviation: 61.9919349593
 Outlier (195.22.206.190): 179
+2016-06-08_15:26:58
+0 192.168.1.1	65 ms	+0	 ()
+1 10.21.192.1	81 ms	+16	 ()
+2 10.242.1.17	72 ms	-9	 ()
+3 195.22.220.33	70 ms	-2	 (Italy)
+4 195.22.220.32	72 ms	+2	 (Italy)
+5 195.22.206.190	266 ms	+194	 (Italy)
+6 198.32.176.177	279 ms	+13	Redwood City (United States)
+7 202.158.194.176	1415 ms	+1136	Canberra (Australia)
+8 113.197.15.146	414 ms	-1001	Canberra (Australia)
+9 138.44.5.47	414 ms	+0	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	420 ms	+6	Sydney (Australia)
+Average: 32
+Std Deviation: 481.582807002
+Outlier (113.197.15.146): -1001
+Outlier (202.158.194.176): 1136
+2016-06-08_15:37:59
+0 192.168.1.1	68 ms	+0	 ()
+1 10.21.192.1	74 ms	+6	 ()
+2 10.242.1.17	71 ms	-3	 ()
+3 195.22.220.33	77 ms	+6	 (Italy)
+4 195.22.220.32	74 ms	-3	 (Italy)
+5 195.22.206.190	261 ms	+187	 (Italy)
+6 198.32.176.177	284 ms	+23	Redwood City (United States)
+7 202.158.194.176	411 ms	+127	Canberra (Australia)
+8 113.197.15.146	413 ms	+2	Canberra (Australia)
+9 138.44.5.47	414 ms	+1	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	419 ms	+5	Sydney (Australia)
+Average: 31
+Std Deviation: 63.6788818997
+Outlier (195.22.206.190): 187
+2016-06-08_15:47:55
+0 192.168.1.1	76 ms	+0	 ()
+1 10.21.192.1	72 ms	-4	 ()
+2 10.242.1.17	74 ms	+2	 ()
+3 195.22.220.33	62 ms	-12	 (Italy)
+4 195.22.220.32	74 ms	+12	 (Italy)
+5 195.22.206.190	250 ms	+176	 (Italy)
+6 198.32.176.177	280 ms	+30	Redwood City (United States)
+7 202.158.194.176	411 ms	+131	Canberra (Australia)
+8 113.197.15.146	415 ms	+4	Canberra (Australia)
+9 138.44.5.47	415 ms	+0	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	407 ms	-8	Sydney (Australia)
+Average: 30
+Std Deviation: 62.8171950982
+Outlier (195.22.206.190): 176
+2016-06-08_16:00:44
+0 192.168.1.1	66 ms	+0	 ()
+1 10.21.192.1	59 ms	-7	 ()
+2 10.242.1.17	69 ms	+10	 ()
+3 195.22.220.33	79 ms	+10	 (Italy)
+4 195.22.220.32	79 ms	+0	 (Italy)
+5 195.22.206.190	266 ms	+187	 (Italy)
+6 198.32.176.177	275 ms	+9	Redwood City (United States)
+7 202.158.194.176	405 ms	+130	Canberra (Australia)
+8 113.197.15.146	410 ms	+5	Canberra (Australia)
+9 138.44.5.47	407 ms	-3	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	408 ms	+1	Sydney (Australia)
+Average: 31
+Std Deviation: 64.4980619864
+Outlier (195.22.206.190): 187
+2016-06-08_16:09:57
+0 192.168.1.1	67 ms	+0	 ()
+1 10.21.192.1	91 ms	+24	 ()
+2 10.242.1.17	75 ms	-16	 ()
+3 195.22.220.33	73 ms	-2	 (Italy)
+4 195.22.220.32	79 ms	+6	 (Italy)
+5 195.22.206.190	258 ms	+179	 (Italy)
+6 198.32.176.177	279 ms	+21	Redwood City (United States)
+7 202.158.194.176	415 ms	+136	Canberra (Australia)
+8 113.197.15.146	412 ms	-3	Canberra (Australia)
+9 138.44.5.47	411 ms	-1	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	412 ms	+1	Sydney (Australia)
+Average: 31
+Std Deviation: 64.0624695122
+Outlier (195.22.206.190): 179
+2016-06-08_16:20:58
+0 192.168.1.1	70 ms	+0	 ()
+1 10.21.192.1	75 ms	+5	 ()
+2 10.242.1.17	75 ms	+0	 ()
+3 195.22.220.33	74 ms	-1	 (Italy)
+4 195.22.220.32	71 ms	-3	 (Italy)
+5 195.22.206.190	269 ms	+198	 (Italy)
+6 198.32.176.177	283 ms	+14	Redwood City (United States)
+7 202.158.194.176	431 ms	+148	Canberra (Australia)
+8 113.197.15.146	413 ms	-18	Canberra (Australia)
+9 138.44.5.47	434 ms	+21	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	414 ms	-20	Sydney (Australia)
+Average: 31
+Std Deviation: 71.9305220334
+Outlier (195.22.206.190): 198
+2016-06-08_16:29:52
+0 192.168.1.1	56 ms	+0	 ()
+1 10.21.192.1	71 ms	+15	 ()
+2 10.242.1.17	71 ms	+0	 ()
+3 195.22.220.33	71 ms	+0	 (Italy)
+4 195.22.220.32	71 ms	+0	 (Italy)
+5 195.22.206.190	268 ms	+197	 (Italy)
+6 198.32.176.177	288 ms	+20	Redwood City (United States)
+7 202.158.194.176	417 ms	+129	Canberra (Australia)
+8 113.197.15.146	411 ms	-6	Canberra (Australia)
+9 138.44.5.47	413 ms	+2	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	419 ms	+6	Sydney (Australia)
+Average: 33
+Std Deviation: 66.4605145933
+Outlier (195.22.206.190): 197
+2016-06-08_16:37:58
+0 192.168.1.1	72 ms	+0	 ()
+1 10.21.192.1	71 ms	-1	 ()
+2 10.242.1.17	81 ms	+10	 ()
+3 195.22.220.33	79 ms	-2	 (Italy)
+4 195.22.220.32	80 ms	+1	 (Italy)
+5 195.22.206.190	267 ms	+187	 (Italy)
+6 198.32.176.177	295 ms	+28	Redwood City (United States)
+7 202.158.194.176	415 ms	+120	Canberra (Australia)
+8 113.197.15.146	434 ms	+19	Canberra (Australia)
+9 138.44.5.47	452 ms	+18	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	414 ms	-38	Sydney (Australia)
+Average: 31
+Std Deviation: 64.6142399166
+Outlier (195.22.206.190): 187
+2016-06-08_16:48:30
+0 192.168.1.1	72 ms	+0	 ()
+1 10.21.192.1	65 ms	-7	 ()
+2 10.242.1.17	65 ms	+0	 ()
+3 195.22.220.33	75 ms	+10	 (Italy)
+4 195.22.220.32	74 ms	-1	 (Italy)
+5 195.22.206.190	265 ms	+191	 (Italy)
+6 198.32.176.177	286 ms	+21	Redwood City (United States)
+7 202.158.194.176	413 ms	+127	Canberra (Australia)
+8 113.197.15.146	498 ms	+85	Canberra (Australia)
+9 138.44.5.47	411 ms	-87	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	412 ms	+1	Sydney (Australia)
+Average: 30
+Std Deviation: 75.8221603491
+Outlier (195.22.206.190): 191
+2016-06-08_16:58:14
+0 192.168.1.1	64 ms	+0	 ()
+1 10.21.192.1	69 ms	+5	 ()
+2 10.242.1.17	75 ms	+6	 ()
+3 195.22.220.33	71 ms	-4	 (Italy)
+4 195.22.220.32	73 ms	+2	 (Italy)
+5 195.22.206.190	257 ms	+184	 (Italy)
+6 198.32.176.177	279 ms	+22	Redwood City (United States)
+7 202.158.194.176	413 ms	+134	Canberra (Australia)
+8 113.197.15.146	412 ms	-1	Canberra (Australia)
+9 138.44.5.47	419 ms	+7	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	419 ms	+0	Sydney (Australia)
+Average: 32
+Std Deviation: 64.0078120232
+Outlier (195.22.206.190): 184
+2016-06-08_17:08:29
+0 192.168.1.1	62 ms	+0	 ()
+1 10.21.192.1	80 ms	+18	 ()
+2 10.242.1.17	72 ms	-8	 ()
+3 195.22.220.33	76 ms	+4	 (Italy)
+4 195.22.220.32	74 ms	-2	 (Italy)
+5 195.22.206.190	283 ms	+209	 (Italy)
+6 198.32.176.177	289 ms	+6	Redwood City (United States)
+7 202.158.194.176	417 ms	+128	Canberra (Australia)
+8 113.197.15.146	415 ms	-2	Canberra (Australia)
+9 138.44.5.47	418 ms	+3	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	416 ms	-2	Sydney (Australia)
+Average: 32
+Std Deviation: 70.0927956355
+Outlier (195.22.206.190): 209
+2016-06-08_17:26:08
+0 192.168.1.1	87 ms	+0	 ()
+1 10.21.192.1	112 ms	+25	 ()
+2 10.242.1.17	82 ms	-30	 ()
+3 195.22.220.33	68 ms	-14	 (Italy)
+4 195.22.220.32	78 ms	+10	 (Italy)
+5 195.22.206.190	267 ms	+189	 (Italy)
+6 198.32.176.177	291 ms	+24	Redwood City (United States)
+7 202.158.194.176	418 ms	+127	Canberra (Australia)
+8 113.197.15.146	415 ms	-3	Canberra (Australia)
+9 138.44.5.47	411 ms	-4	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	417 ms	+6	Sydney (Australia)
+Average: 30
+Std Deviation: 66.6333249958
+Outlier (195.22.206.190): 189
+2016-06-08_17:34:33
+0 192.168.1.1	74 ms	+0	 ()
+1 10.21.192.1	76 ms	+2	 ()
+2 10.242.1.17	75 ms	-1	 ()
+3 195.22.220.33	75 ms	+0	 (Italy)
+4 195.22.220.32	83 ms	+8	 (Italy)
+5 195.22.206.190	306 ms	+223	 (Italy)
+6 198.32.176.177	283 ms	-23	Redwood City (United States)
+7 202.158.194.176	419 ms	+136	Canberra (Australia)
+8 113.197.15.146	416 ms	-3	Canberra (Australia)
+9 138.44.5.47	423 ms	+7	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	427 ms	+4	Sydney (Australia)
+Average: 32
+Std Deviation: 75.8683069536
+Outlier (195.22.206.190): 223
+2016-06-08_17:44:42
+0 192.168.1.1	61 ms	+0	 ()
+1 10.21.192.1	75 ms	+14	 ()
+2 10.242.1.17	69 ms	-6	 ()
+3 195.22.220.33	77 ms	+8	 (Italy)
+4 195.22.220.32	75 ms	-2	 (Italy)
+5 195.22.206.190	264 ms	+189	 (Italy)
+6 198.32.176.177	286 ms	+22	Redwood City (United States)
+7 202.158.194.176	410 ms	+124	Canberra (Australia)
+8 113.197.15.146	416 ms	+6	Canberra (Australia)
+9 138.44.5.47	439 ms	+23	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	428 ms	-11	Sydney (Australia)
+Average: 33
+Std Deviation: 63.4980314656
+Outlier (195.22.206.190): 189
+2016-06-08_17:54:40
+0 192.168.1.1	66 ms	+0	 ()
+1 10.21.192.1	73 ms	+7	 ()
+2 10.242.1.17	74 ms	+1	 ()
+3 195.22.220.33	70 ms	-4	 (Italy)
+2016-06-08_18:09:47
+0 192.168.1.1	66 ms	+0	 ()
+2016-06-08_18:26:00
+0 192.168.1.1	66 ms	+0	 ()
+1 10.21.192.1	80 ms	+14	 ()
+2 10.242.1.17	75 ms	-5	 ()
+3 195.22.220.33	74 ms	-1	 (Italy)
+4 195.22.220.32	71 ms	-3	 (Italy)
+5 195.22.206.190	271 ms	+200	 (Italy)
+6 198.32.176.177	278 ms	+7	Redwood City (United States)
+7 202.158.194.176	422 ms	+144	Canberra (Australia)
+8 113.197.15.146	427 ms	+5	Canberra (Australia)
+9 138.44.5.47	473 ms	+46	Research (Australia)
+10 * * *
+11 * * *
+2016-06-08_18:42:49
+0 192.168.1.1	61 ms	+0	 ()
+1 10.21.192.1	68 ms	+7	 ()
+2 10.242.1.17	65 ms	-3	 ()
+3 195.22.220.33	67 ms	+2	 (Italy)
+4 195.22.220.32	78 ms	+11	 (Italy)
+5 195.22.206.190	256 ms	+178	 (Italy)
+6 198.32.176.177	274 ms	+18	Redwood City (United States)
+7 202.158.194.176	414 ms	+140	Canberra (Australia)
+8 113.197.15.146	406 ms	-8	Canberra (Australia)
+9 138.44.5.47	417 ms	+11	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	409 ms	-8	Sydney (Australia)
+Average: 31
+Std Deviation: 64.0546641549
+Outlier (195.22.206.190): 178
+2016-06-08_18:52:30
+0 192.168.1.1	59 ms	+0	 ()
+1 10.21.192.1	75 ms	+16	 ()
+2 10.242.1.17	74 ms	-1	 ()
+3 195.22.220.33	75 ms	+1	 (Italy)
+4 195.22.220.32	69 ms	-6	 (Italy)
+5 195.22.206.190	256 ms	+187	 (Italy)
+6 198.32.176.177	275 ms	+19	Redwood City (United States)
+7 202.158.194.176	408 ms	+133	Canberra (Australia)
+8 113.197.15.146	412 ms	+4	Canberra (Australia)
+9 138.44.5.47	411 ms	-1	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	441 ms	+30	Sydney (Australia)
+Average: 34
+Std Deviation: 64.0078120232
+Outlier (195.22.206.190): 187
+2016-06-08_19:01:42
+0 192.168.1.1	65 ms	+0	 ()
+1 10.21.192.1	63 ms	-2	 ()
+2 10.242.1.17	70 ms	+7	 ()
+3 195.22.220.33	71 ms	+1	 (Italy)
+4 195.22.220.32	73 ms	+2	 (Italy)
+5 195.22.206.190	261 ms	+188	 (Italy)
+6 198.32.176.177	274 ms	+13	Redwood City (United States)
+7 202.158.194.176	411 ms	+137	Canberra (Australia)
+8 113.197.15.146	410 ms	-1	Canberra (Australia)
+9 138.44.5.47	412 ms	+2	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	417 ms	+5	Sydney (Australia)
+Average: 32
+Std Deviation: 65.6505902487
+Outlier (195.22.206.190): 188
+2016-06-08_19:11:44
+0 192.168.1.1	61 ms	+0	 ()
+1 10.21.192.1	65 ms	+4	 ()
+2 10.242.1.17	71 ms	+6	 ()
+3 195.22.220.33	67 ms	-4	 (Italy)
+4 195.22.220.32	73 ms	+6	 (Italy)
+5 195.22.206.190	255 ms	+182	 (Italy)
+6 198.32.176.177	282 ms	+27	Redwood City (United States)
+7 202.158.194.176	411 ms	+129	Canberra (Australia)
+8 113.197.15.146	415 ms	+4	Canberra (Australia)
+9 138.44.5.47	413 ms	-2	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	411 ms	-2	Sydney (Australia)
+Average: 31
+Std Deviation: 62.8410693735
+Outlier (195.22.206.190): 182
+2016-06-08_19:22:50
+0 192.168.1.1	64 ms	+0	 ()
+1 10.21.192.1	75 ms	+11	 ()
+2 10.242.1.17	75 ms	+0	 ()
+3 195.22.220.33	76 ms	+1	 (Italy)
+4 195.22.220.32	70 ms	-6	 (Italy)
+5 195.22.206.190	268 ms	+198	 (Italy)
+6 198.32.176.177	284 ms	+16	Redwood City (United States)
+7 202.158.194.176	415 ms	+131	Canberra (Australia)
+8 113.197.15.146	415 ms	+0	Canberra (Australia)
+9 138.44.5.47	413 ms	-2	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	416 ms	+3	Sydney (Australia)
+Average: 32
+Std Deviation: 67.4685111737
+Outlier (195.22.206.190): 198
+2016-06-08_19:31:47
+0 192.168.1.1	71 ms	+0	 ()
+2016-06-08_19:40:48
+0 192.168.1.1	63 ms	+0	 ()
+1 10.21.192.1	73 ms	+10	 ()
+2 10.242.1.17	71 ms	-2	 ()
+3 195.22.220.33	72 ms	+1	 (Italy)
+4 195.22.220.32	73 ms	+1	 (Italy)
+5 195.22.206.190	260 ms	+187	 (Italy)
+6 198.32.176.177	280 ms	+20	Redwood City (United States)
+7 202.158.194.176	418 ms	+138	Canberra (Australia)
+8 113.197.15.146	425 ms	+7	Canberra (Australia)
+9 138.44.5.47	423 ms	-2	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	417 ms	-6	Sydney (Australia)
+Average: 32
+Std Deviation: 65.7343137182
+Outlier (195.22.206.190): 187
+2016-06-08_19:49:26
+0 192.168.1.1	71 ms	+0	 ()
+1 10.21.192.1	83 ms	+12	 ()
+2 10.242.1.17	77 ms	-6	 ()
+3 195.22.220.33	74 ms	-3	 (Italy)
+4 195.22.220.32	71 ms	-3	 (Italy)
+5 195.22.206.190	272 ms	+201	 (Italy)
+6 198.32.176.177	279 ms	+7	Redwood City (United States)
+7 202.158.194.176	415 ms	+136	Canberra (Australia)
+8 113.197.15.146	415 ms	+0	Canberra (Australia)
+9 138.44.5.47	417 ms	+2	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	412 ms	-5	Sydney (Australia)
+Average: 31
+Std Deviation: 69.7137002317
+Outlier (195.22.206.190): 201
+2016-06-08_19:58:59
+0 192.168.1.1	62 ms	+0	 ()
+1 10.21.192.1	74 ms	+12	 ()
+2 10.242.1.17	74 ms	+0	 ()
+3 195.22.220.33	81 ms	+7	 (Italy)
+4 195.22.220.32	73 ms	-8	 (Italy)
+5 195.22.206.190	272 ms	+199	 (Italy)
+6 198.32.176.177	282 ms	+10	Redwood City (United States)
+7 202.158.194.176	418 ms	+136	Canberra (Australia)
+8 113.197.15.146	420 ms	+2	Canberra (Australia)
+9 138.44.5.47	414 ms	-6	Research (Australia)
+10 * * *
+11 * * *
+12 129.78.5.8	415 ms	+1	Sydney (Australia)
+Average: 32
+Std Deviation: 68.6731388536
+Outlier (195.22.206.190): 199
+2016-06-08_20:08:44
+0 192.168.1.1	65 ms	+0	 ()
+1 10.21.192.1	71 ms	+6	 ()
+2 10.242.1.17	73 ms	+2	 ()
+3 195.22.220.33	77 ms	+4	 (Italy)
+4 195.22.220.32	75 ms	-2	 (Italy)
+5 195.22.206.190	272 ms	+197	 (Italy)
+6 198.32.176.177	284 ms	+12	Redwood City (United States)

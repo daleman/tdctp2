@@ -1273,3 +1273,408 @@ traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
 11  * * *
 12  * * *
 13  scilearn.sydney.edu.au (129.78.5.8)  350.516 ms  353.434 ms  355.715 ms
+2016-06-08_15:26:58
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.432 ms  0.456 ms  0.469 ms
+ 2  10.21.192.1 (10.21.192.1)  16.627 ms  16.706 ms  17.022 ms
+ 3  10.242.1.17 (10.242.1.17)  17.139 ms  17.457 ms  17.549 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  19.994 ms  20.074 ms  21.600 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  21.701 ms  22.062 ms  22.145 ms
+ 6  xe-1-0-0.paloalto2.pao.seabone.net (89.221.35.161)  197.830 ms xe-9-3-0.paloalto2.pao.seabone.net (89.221.35.141)  189.415 ms xe-1-0-0.paloalto2.pao.seabone.net (89.221.35.161)  192.613 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  225.828 ms  216.600 ms  224.547 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  348.787 ms  348.441 ms  358.776 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  358.662 ms  360.410 ms  363.335 ms
+10  138.44.5.47 (138.44.5.47)  355.177 ms  355.215 ms  366.399 ms
+11  * * *
+12  * * *
+13  shared-addr.ucc.usyd.edu.au (129.78.5.8)  355.556 ms  355.987 ms  352.557 ms
+2016-06-08_15:37:59
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.433 ms  0.457 ms  0.484 ms
+ 2  10.21.192.1 (10.21.192.1)  22.551 ms  22.668 ms  22.754 ms
+ 3  10.242.1.17 (10.242.1.17)  23.083 ms  23.176 ms  23.279 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  23.617 ms  23.716 ms  28.499 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  24.712 ms  24.573 ms  28.556 ms
+ 6  xe-1-1-0.paloalto2.pao.seabone.net (195.22.206.188)  219.209 ms xe-2-1-0.paloalto2.pao.seabone.net (89.221.35.145)  194.553 ms  191.579 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  225.504 ms  225.401 ms  215.695 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  358.518 ms  351.473 ms  351.537 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  363.565 ms  358.550 ms  375.510 ms
+10  138.44.5.47 (138.44.5.47)  369.398 ms  368.938 ms  379.478 ms
+11  * * *
+12  * * *
+13  shared-addr.ucc.usyd.edu.au (129.78.5.8)  347.639 ms  343.955 ms  347.842 ms
+2016-06-08_15:47:55
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.423 ms  0.456 ms  0.468 ms
+ 2  10.21.192.1 (10.21.192.1)  23.877 ms  23.881 ms  24.313 ms
+ 3  10.242.1.17 (10.242.1.17)  24.333 ms  24.464 ms  24.801 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  24.830 ms  27.525 ms  27.479 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  29.550 ms  29.335 ms  29.273 ms
+ 6  xe-1-2-0.paloalto2.pao.seabone.net (195.22.206.190)  245.599 ms xe-1-0-0.paloalto2.pao.seabone.net (89.221.35.161)  207.674 ms xe-2-1-0.paloalto2.pao.seabone.net (89.221.35.145)  182.259 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  220.955 ms  220.956 ms  221.954 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  358.562 ms  363.570 ms  358.056 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  365.995 ms  363.686 ms  363.504 ms
+10  138.44.5.47 (138.44.5.47)  368.531 ms  363.737 ms  368.524 ms
+11  * * *
+12  * * *
+13  uat-scilearn.sydney.edu.au (129.78.5.8)  359.462 ms  345.781 ms  351.596 ms
+2016-06-08_16:00:44
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.412 ms  0.450 ms  0.487 ms
+ 2  10.21.192.1 (10.21.192.1)  18.178 ms  18.288 ms  18.379 ms
+ 3  10.242.1.17 (10.242.1.17)  19.011 ms  19.128 ms  19.400 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  26.755 ms  27.386 ms  26.620 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  29.725 ms  30.170 ms  30.294 ms
+ 6  xe-5-1-0.paloalto2.pao.seabone.net (89.221.35.147)  211.434 ms xe-1-2-0.paloalto2.pao.seabone.net (195.22.206.190)  196.342 ms xe-5-1-0.paloalto2.pao.seabone.net (89.221.35.147)  191.563 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  218.654 ms  223.681 ms  219.963 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  355.763 ms  352.679 ms  351.811 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  357.162 ms  359.717 ms  365.759 ms
+10  138.44.5.47 (138.44.5.47)  352.563 ms  357.081 ms  365.664 ms
+11  * * *
+12  * * *
+13  uat-scilearn.sydney.edu.au (129.78.5.8)  359.491 ms  342.510 ms  348.991 ms
+2016-06-08_16:09:57
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.388 ms  0.438 ms  0.482 ms
+ 2  10.21.192.1 (10.21.192.1)  16.728 ms  16.725 ms  17.101 ms
+ 3  10.242.1.17 (10.242.1.17)  17.213 ms  17.313 ms  17.721 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  17.826 ms  20.490 ms  20.355 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  19.463 ms  24.089 ms  24.154 ms
+ 6  xe-1-0-0.paloalto2.pao.seabone.net (89.221.35.161)  204.895 ms xe-2-1-0.paloalto2.pao.seabone.net (89.221.35.145)  181.355 ms xe-1-2-0.paloalto2.pao.seabone.net (195.22.206.190)  191.753 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  211.741 ms  213.111 ms  213.155 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  355.681 ms  351.143 ms  348.907 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  347.665 ms  366.067 ms  370.150 ms
+10  138.44.5.47 (138.44.5.47)  369.936 ms  371.652 ms  375.543 ms
+11  * * *
+12  * * *
+13  uat-scilearn.sydney.edu.au (129.78.5.8)  355.459 ms  350.661 ms  349.426 ms
+2016-06-08_16:20:58
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.369 ms  0.421 ms  0.466 ms
+ 2  10.21.192.1 (10.21.192.1)  21.804 ms  21.920 ms  21.995 ms
+ 3  10.242.1.17 (10.242.1.17)  22.409 ms  22.824 ms  22.905 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  23.974 ms  24.072 ms  24.411 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  27.472 ms  25.904 ms  26.010 ms
+ 6  xe-1-0-0.paloalto2.pao.seabone.net (89.221.35.161)  203.499 ms xe-9-3-0.paloalto2.pao.seabone.net (89.221.35.141)  193.267 ms xe-1-0-0.paloalto2.pao.seabone.net (89.221.35.161)  195.751 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  217.404 ms  215.556 ms  217.453 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  359.648 ms  355.709 ms  366.088 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  358.230 ms  365.849 ms  365.914 ms
+10  138.44.5.47 (138.44.5.47)  358.318 ms  367.592 ms  379.619 ms
+11  * * *
+12  * * *
+13  sydney.edu.au (129.78.5.8)  346.810 ms  355.631 ms  346.656 ms
+2016-06-08_16:29:52
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.465 ms  0.477 ms  0.588 ms
+ 2  10.21.192.1 (10.21.192.1)  23.455 ms  23.451 ms  23.600 ms
+ 3  10.242.1.17 (10.242.1.17)  23.940 ms  23.956 ms  25.887 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  29.194 ms  29.368 ms  29.169 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  25.825 ms  29.638 ms  29.718 ms
+ 6  xe-5-1-0.paloalto2.pao.seabone.net (89.221.35.147)  206.605 ms xe-9-3-0.paloalto2.pao.seabone.net (89.221.35.141)  200.883 ms xe-2-1-0.paloalto2.pao.seabone.net (89.221.35.145)  187.592 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  219.553 ms  226.122 ms  226.208 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  346.617 ms  358.247 ms  368.282 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  368.603 ms  362.904 ms  362.841 ms
+10  138.44.5.47 (138.44.5.47)  375.360 ms  368.631 ms  368.194 ms
+11  * * *
+12  * * *
+13  scilearn.sydney.edu.au (129.78.5.8)  355.095 ms  344.888 ms  351.604 ms
+2016-06-08_16:37:58
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.343 ms  0.394 ms  0.443 ms
+ 2  10.21.192.1 (10.21.192.1)  23.470 ms  23.576 ms  24.041 ms
+ 3  10.242.1.17 (10.242.1.17)  24.165 ms  24.655 ms  24.772 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  24.968 ms  25.439 ms  25.549 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  25.312 ms  29.982 ms  30.081 ms
+ 6  xe-2-1-0.paloalto2.pao.seabone.net (89.221.35.145)  260.983 ms xe-11-1-0.paloalto2.pao.seabone.net (89.221.35.129)  234.926 ms xe-9-3-0.paloalto2.pao.seabone.net (89.221.35.141)  247.769 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  275.712 ms  271.643 ms  263.724 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  407.778 ms  414.855 ms  414.866 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  425.717 ms * *
+10  138.44.5.47 (138.44.5.47)  425.464 ms  426.710 ms  426.581 ms
+11  * * *
+12  * * *
+13  sydney.edu.au (129.78.5.8)  367.539 ms  355.662 ms  345.252 ms
+2016-06-08_16:48:30
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.424 ms  0.451 ms  0.474 ms
+ 2  10.21.192.1 (10.21.192.1)  17.867 ms  17.868 ms  18.014 ms
+ 3  10.242.1.17 (10.242.1.17)  18.427 ms  18.508 ms  18.614 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  22.406 ms  21.599 ms  21.559 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  23.139 ms  23.035 ms  22.355 ms
+ 6  xe-9-3-0.paloalto2.pao.seabone.net (89.221.35.141)  207.206 ms xe-1-1-0.paloalto2.pao.seabone.net (195.22.206.188)  211.662 ms  199.599 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  215.632 ms  223.543 ms  219.534 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  347.603 ms  354.073 ms  359.831 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  359.814 ms  354.097 ms  359.779 ms
+10  138.44.5.47 (138.44.5.47)  370.833 ms  362.922 ms  359.708 ms
+11  * * *
+12  * * *
+13  sydney.edu.au (129.78.5.8)  363.493 ms  352.020 ms  355.520 ms
+2016-06-08_16:58:14
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.425 ms  0.448 ms  0.469 ms
+ 2  10.21.192.1 (10.21.192.1)  22.727 ms  22.816 ms  22.974 ms
+ 3  10.242.1.17 (10.242.1.17)  23.409 ms  23.489 ms  23.600 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  23.994 ms  24.074 ms  24.169 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  24.652 ms  28.359 ms  28.360 ms
+ 6  xe-1-0-0.paloalto2.pao.seabone.net (89.221.35.161)  204.630 ms xe-11-1-0.paloalto2.pao.seabone.net (89.221.35.129)  195.609 ms xe-5-1-0.paloalto2.pao.seabone.net (89.221.35.147)  191.700 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  215.913 ms  221.807 ms  215.470 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  350.834 ms  355.028 ms  350.769 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  363.042 ms  374.460 ms  364.913 ms
+10  138.44.5.47 (138.44.5.47)  371.259 ms  365.027 ms  363.015 ms
+11  * * *
+12  * * *
+13  shared-addr.ucc.usyd.edu.au (129.78.5.8)  353.452 ms  345.880 ms  349.792 ms
+2016-06-08_17:08:29
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.411 ms  0.447 ms  0.480 ms
+ 2  10.21.192.1 (10.21.192.1)  23.973 ms  23.974 ms  24.099 ms
+ 3  10.242.1.17 (10.242.1.17)  28.947 ms  29.053 ms  30.294 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  30.850 ms  32.069 ms  30.365 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  28.448 ms  28.206 ms  28.312 ms
+ 6  xe-5-1-0.paloalto2.pao.seabone.net (89.221.35.147)  206.906 ms xe-2-1-0.paloalto2.pao.seabone.net (89.221.35.145)  206.378 ms  191.749 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  211.782 ms  226.815 ms  212.870 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  354.469 ms  359.378 ms  354.401 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  359.297 ms  363.535 ms  365.830 ms
+10  138.44.5.47 (138.44.5.47)  366.987 ms  365.936 ms  375.544 ms
+11  * * *
+12  * * *
+13  uat-scilearn.sydney.edu.au (129.78.5.8)  360.483 ms  352.317 ms  360.293 ms
+2016-06-08_17:26:08
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.373 ms  0.434 ms  0.494 ms
+ 2  10.21.192.1 (10.21.192.1)  66.344 ms  66.650 ms  66.756 ms
+ 3  10.242.1.17 (10.242.1.17)  66.986 ms  67.204 ms  67.646 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  78.205 ms  78.072 ms  83.029 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  78.677 ms  78.370 ms  78.790 ms
+ 6  xe-1-1-0.paloalto2.pao.seabone.net (195.22.206.188)  262.922 ms xe-1-0-0.paloalto2.pao.seabone.net (89.221.35.161)  210.832 ms xe-11-1-0.paloalto2.pao.seabone.net (89.221.35.129)  226.133 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  241.376 ms  226.134 ms  241.747 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  404.102 ms  413.559 ms  413.662 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  414.126 ms  414.115 ms  417.617 ms
+10  138.44.5.47 (138.44.5.47)  417.501 ms  413.973 ms  417.374 ms
+11  * * *
+12  * * *
+13  uat-scilearn.sydney.edu.au (129.78.5.8)  367.058 ms  375.967 ms  371.645 ms
+2016-06-08_17:34:33
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.431 ms  0.460 ms  0.467 ms
+ 2  10.21.192.1 (10.21.192.1)  23.643 ms  23.655 ms  23.929 ms
+ 3  10.242.1.17 (10.242.1.17)  24.003 ms  24.103 ms  24.436 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  24.529 ms  24.644 ms  31.350 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  27.056 ms  27.008 ms  31.827 ms
+ 6  xe-1-2-0.paloalto2.pao.seabone.net (195.22.206.190)  218.507 ms xe-5-1-0.paloalto2.pao.seabone.net (89.221.35.147)  186.884 ms xe-1-1-0.paloalto2.pao.seabone.net (195.22.206.188)  199.676 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  224.741 ms  224.564 ms  219.489 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  353.230 ms  358.296 ms  358.232 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  353.063 ms  362.081 ms  363.313 ms
+10  138.44.5.47 (138.44.5.47)  361.993 ms  367.298 ms  377.985 ms
+11  * * *
+12  * * *
+13  shared-addr.ucc.usyd.edu.au (129.78.5.8)  347.848 ms  347.711 ms  351.582 ms
+2016-06-08_17:44:42
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.407 ms  0.454 ms  0.494 ms
+ 2  10.21.192.1 (10.21.192.1)  19.156 ms  19.241 ms  19.339 ms
+ 3  10.242.1.17 (10.242.1.17)  19.717 ms  19.830 ms  19.937 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  20.273 ms  20.786 ms  20.648 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  23.865 ms  23.741 ms  23.964 ms
+ 6  xe-2-1-0.paloalto2.pao.seabone.net (89.221.35.145)  204.321 ms xe-9-3-0.paloalto2.pao.seabone.net (89.221.35.141)  215.803 ms xe-2-1-0.paloalto2.pao.seabone.net (89.221.35.145)  239.074 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  223.353 ms  220.478 ms  220.568 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  354.575 ms  355.231 ms  355.679 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  366.748 ms  362.946 ms  354.416 ms
+10  138.44.5.47 (138.44.5.47)  362.818 ms  366.841 ms  375.623 ms
+11  * * *
+12  * * *
+13  uat-scilearn.sydney.edu.au (129.78.5.8)  351.762 ms  345.203 ms  352.477 ms
+2016-06-08_17:54:41
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.426 ms  0.446 ms  0.454 ms
+ 2  10.21.192.1 (10.21.192.1)  22.344 ms  22.358 ms  22.500 ms
+ 3  10.242.1.17 (10.242.1.17)  22.893 ms  23.128 ms  23.212 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  23.728 ms  23.761 ms  25.629 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  25.646 ms  26.811 ms  30.181 ms
+ 6  xe-1-0-0.paloalto2.pao.seabone.net (89.221.35.161)  210.848 ms xe-1-2-0.paloalto2.pao.seabone.net (195.22.206.190)  192.192 ms  192.262 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  212.297 ms  227.419 ms  215.994 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  365.900 ms  355.890 ms  358.016 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  355.791 ms  367.877 ms  357.482 ms
+10  138.44.5.47 (138.44.5.47)  372.068 ms  357.871 ms  365.720 ms
+11  * * *
+12  * * *
+13  scilearn.sydney.edu.au (129.78.5.8)  352.107 ms  346.132 ms  352.103 ms
+2016-06-08_18:09:47
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.410 ms  0.439 ms  0.495 ms
+ 2  10.21.192.1 (10.21.192.1)  16.801 ms  16.808 ms  17.345 ms
+ 3  10.242.1.17 (10.242.1.17)  17.398 ms  17.481 ms  18.937 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  21.297 ms  20.407 ms  20.336 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  19.112 ms  23.046 ms  23.169 ms
+ 6  xe-1-2-0.paloalto2.pao.seabone.net (195.22.206.190)  213.225 ms xe-9-3-0.paloalto2.pao.seabone.net (89.221.35.141)  190.773 ms xe-11-1-0.paloalto2.pao.seabone.net (89.221.35.129)  203.508 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  227.430 ms  219.417 ms  217.180 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  359.589 ms  348.599 ms  348.711 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  355.324 ms  355.907 ms  355.681 ms
+10  138.44.5.47 (138.44.5.47)  367.250 ms  355.521 ms  359.451 ms
+11  * * *
+12  * * *
+13  shared-addr.ucc.usyd.edu.au (129.78.5.8)  347.705 ms  370.583 ms  358.518 ms
+2016-06-08_18:26:00
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.444 ms  0.472 ms  0.483 ms
+ 2  10.21.192.1 (10.21.192.1)  16.932 ms  16.946 ms  17.078 ms
+ 3  10.242.1.17 (10.242.1.17)  17.897 ms  17.901 ms  18.879 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  18.889 ms  23.274 ms  23.286 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  22.815 ms  22.579 ms  22.593 ms
+ 6  xe-1-1-0.paloalto2.pao.seabone.net (195.22.206.188)  203.260 ms xe-2-1-0.paloalto2.pao.seabone.net (89.221.35.145)  183.646 ms xe-1-1-0.paloalto2.pao.seabone.net (195.22.206.188)  191.605 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  218.545 ms  215.077 ms  218.467 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  357.557 ms  355.133 ms  347.513 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  359.104 ms  354.278 ms  354.367 ms
+10  138.44.5.47 (138.44.5.47)  358.950 ms  366.314 ms  366.182 ms
+11  * * *
+12  * * *
+13  uat-scilearn.sydney.edu.au (129.78.5.8)  355.746 ms  351.779 ms  349.404 ms
+2016-06-08_18:42:49
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.473 ms  0.508 ms  0.526 ms
+ 2  10.21.192.1 (10.21.192.1)  23.236 ms  27.111 ms  27.374 ms
+ 3  10.242.1.17 (10.242.1.17)  27.761 ms  27.844 ms  28.193 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  28.783 ms  28.862 ms  28.986 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  28.340 ms  28.209 ms  30.453 ms
+ 6  xe-1-1-0.paloalto2.pao.seabone.net (195.22.206.188)  213.107 ms xe-5-1-0.paloalto2.pao.seabone.net (89.221.35.147)  211.471 ms xe-11-1-0.paloalto2.pao.seabone.net (89.221.35.129)  212.608 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  239.018 ms  243.651 ms  242.018 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  363.336 ms  384.370 ms  372.418 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  385.026 ms  371.225 ms  373.536 ms
+10  138.44.5.47 (138.44.5.47)  397.906 ms  388.498 ms  389.637 ms
+11  * * *
+12  * * *
+13  uat-scilearn.sydney.edu.au (129.78.5.8)  378.542 ms  384.274 ms  379.862 ms
+2016-06-08_18:52:30
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.409 ms  0.428 ms  0.461 ms
+ 2  10.21.192.1 (10.21.192.1)  21.576 ms  21.580 ms  21.718 ms
+ 3  10.242.1.17 (10.242.1.17)  22.061 ms  22.122 ms  22.219 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  23.728 ms  23.920 ms  23.782 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  23.371 ms  26.231 ms  26.189 ms
+ 6  xe-2-1-0.paloalto2.pao.seabone.net (89.221.35.145)  209.341 ms xe-1-1-0.paloalto2.pao.seabone.net (195.22.206.188)  199.675 ms xe-1-0-0.paloalto2.pao.seabone.net (89.221.35.161)  183.390 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  219.330 ms  227.234 ms  221.487 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  364.114 ms  364.134 ms  351.272 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  352.416 ms  359.506 ms  361.671 ms
+10  138.44.5.47 (138.44.5.47)  359.052 ms  366.125 ms  375.070 ms
+11  * * *
+12  * * *
+13  uat-scilearn.sydney.edu.au (129.78.5.8)  359.369 ms  351.783 ms  354.596 ms
+2016-06-08_19:01:42
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.417 ms  0.398 ms  0.419 ms
+ 2  10.21.192.1 (10.21.192.1)  18.524 ms  18.524 ms  18.521 ms
+ 3  10.242.1.17 (10.242.1.17)  18.987 ms  19.021 ms  19.337 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  20.045 ms  20.057 ms  22.850 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  23.071 ms  22.843 ms  23.008 ms
+ 6  xe-2-1-0.paloalto2.pao.seabone.net (89.221.35.145)  207.369 ms xe-5-1-0.paloalto2.pao.seabone.net (89.221.35.147)  192.865 ms xe-1-1-0.paloalto2.pao.seabone.net (195.22.206.188)  192.051 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  232.997 ms  232.886 ms  232.910 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  350.016 ms  349.961 ms  355.483 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  359.444 ms  362.243 ms  356.391 ms
+10  138.44.5.47 (138.44.5.47)  356.305 ms  362.284 ms  367.013 ms
+11  * * *
+12  * * *
+13  uat-scilearn.sydney.edu.au (129.78.5.8)  363.498 ms  352.236 ms  352.139 ms
+2016-06-08_19:11:44
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.403 ms  0.424 ms  0.445 ms
+ 2  10.21.192.1 (10.21.192.1)  15.328 ms  15.422 ms  15.444 ms
+ 3  10.242.1.17 (10.242.1.17)  15.856 ms  15.961 ms  16.062 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  21.111 ms  21.295 ms  21.081 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  17.811 ms  21.521 ms  21.600 ms
+ 6  xe-11-1-0.paloalto2.pao.seabone.net (89.221.35.129)  197.397 ms xe-1-2-0.paloalto2.pao.seabone.net (195.22.206.190)  195.689 ms xe-5-1-0.paloalto2.pao.seabone.net (89.221.35.147)  195.643 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  218.667 ms  210.567 ms  218.571 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  349.312 ms  363.441 ms  349.305 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  357.027 ms  355.479 ms  357.019 ms
+10  138.44.5.47 (138.44.5.47)  355.377 ms  359.273 ms  370.027 ms
+11  * * *
+12  * * *
+13  shared-addr.ucc.usyd.edu.au (129.78.5.8)  355.480 ms  352.777 ms  348.701 ms
+2016-06-08_19:22:50
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.481 ms  0.477 ms  0.605 ms
+ 2  10.21.192.1 (10.21.192.1)  18.556 ms  18.599 ms  19.087 ms
+ 3  10.242.1.17 (10.242.1.17)  19.472 ms  19.467 ms  20.004 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  20.002 ms  21.608 ms  25.476 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  21.561 ms  21.701 ms  25.505 ms
+ 6  xe-1-0-0.paloalto2.pao.seabone.net (89.221.35.161)  209.980 ms xe-11-1-0.paloalto2.pao.seabone.net (89.221.35.129)  184.282 ms xe-1-2-0.paloalto2.pao.seabone.net (195.22.206.190)  202.998 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  212.517 ms  213.707 ms  212.465 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  354.179 ms  359.452 ms  359.455 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  354.121 ms  354.357 ms  365.462 ms
+10  138.44.5.47 (138.44.5.47)  363.264 ms  354.150 ms  375.244 ms
+11  * * *
+12  * * *
+13  scilearn.sydney.edu.au (129.78.5.8)  351.367 ms  345.248 ms  357.146 ms
+2016-06-08_19:31:47
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.453 ms  0.435 ms  0.445 ms
+ 2  10.21.192.1 (10.21.192.1)  23.129 ms  23.135 ms  23.137 ms
+ 3  10.242.1.17 (10.242.1.17)  23.482 ms  23.585 ms  23.683 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  23.778 ms  23.875 ms  25.978 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  25.907 ms  28.644 ms  28.679 ms
+ 6  xe-9-3-0.paloalto2.pao.seabone.net (89.221.35.141)  202.800 ms xe-2-1-0.paloalto2.pao.seabone.net (89.221.35.145)  184.303 ms xe-11-1-0.paloalto2.pao.seabone.net (89.221.35.129)  195.520 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  215.647 ms  227.424 ms  223.398 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  353.171 ms  353.183 ms  360.122 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  363.272 ms  361.680 ms  359.251 ms
+10  138.44.5.47 (138.44.5.47)  360.074 ms  366.574 ms  374.493 ms
+11  * * *
+12  * * *
+13  uat-scilearn.sydney.edu.au (129.78.5.8)  367.399 ms  348.053 ms  348.050 ms
+2016-06-08_19:40:48
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.427 ms  0.442 ms  0.577 ms
+ 2  10.21.192.1 (10.21.192.1)  19.716 ms  19.699 ms  20.201 ms
+ 3  10.242.1.17 (10.242.1.17)  20.188 ms  20.195 ms  20.332 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  21.818 ms  24.804 ms  24.813 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  21.783 ms  25.764 ms  25.782 ms
+ 6  xe-1-1-0.paloalto2.pao.seabone.net (195.22.206.188)  211.414 ms xe-2-1-0.paloalto2.pao.seabone.net (89.221.35.145)  195.583 ms xe-1-1-0.paloalto2.pao.seabone.net (195.22.206.188)  188.985 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  225.451 ms  215.513 ms  223.456 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  350.587 ms  357.519 ms  357.273 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  350.577 ms  364.785 ms  362.835 ms
+10  138.44.5.47 (138.44.5.47)  365.371 ms  357.252 ms  362.835 ms
+11  * * *
+12  * * *
+13  uat-scilearn.sydney.edu.au (129.78.5.8)  355.548 ms  346.153 ms  354.102 ms
+2016-06-08_19:49:27
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.363 ms  0.449 ms  0.501 ms
+ 2  10.21.192.1 (10.21.192.1)  21.660 ms  21.994 ms  22.026 ms
+ 3  10.242.1.17 (10.242.1.17)  22.614 ms  22.636 ms  22.797 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  25.375 ms  25.385 ms  26.368 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  26.392 ms  26.851 ms  26.742 ms
+ 6  xe-1-1-0.paloalto2.pao.seabone.net (195.22.206.188)  208.344 ms  190.994 ms xe-2-1-0.paloalto2.pao.seabone.net (89.221.35.145)  195.649 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  221.974 ms  217.922 ms  221.978 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  351.596 ms  358.368 ms  356.413 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  360.495 ms  358.378 ms  363.406 ms
+10  138.44.5.47 (138.44.5.47)  360.409 ms  356.279 ms  371.377 ms
+11  * * *
+12  * * *
+13  shared-addr.ucc.usyd.edu.au (129.78.5.8)  347.407 ms  351.517 ms  359.445 ms
+2016-06-08_19:58:59
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.454 ms  0.461 ms  0.630 ms
+ 2  10.21.192.1 (10.21.192.1)  23.345 ms  23.797 ms  23.808 ms
+ 3  10.242.1.17 (10.242.1.17)  23.921 ms  24.484 ms  24.505 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  25.613 ms  27.033 ms  25.489 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  24.900 ms  24.811 ms  27.471 ms
+ 6  xe-1-1-0.paloalto2.pao.seabone.net (195.22.206.188)  210.948 ms  200.255 ms xe-11-1-0.paloalto2.pao.seabone.net (89.221.35.129)  207.121 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  229.461 ms  239.485 ms  229.412 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  362.570 ms  362.501 ms  367.390 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  355.756 ms  355.681 ms  359.290 ms
+10  138.44.5.47 (138.44.5.47)  365.598 ms  365.803 ms  365.592 ms
+11  * * *
+12  * * *
+13  scilearn.sydney.edu.au (129.78.5.8)  347.680 ms  355.433 ms  348.987 ms
+2016-06-08_20:08:44
+traceroute to sydney.edu.au (129.78.5.8), 30 hops max, 60 byte packets
+ 1  192.168.1.1 (192.168.1.1)  0.345 ms  0.413 ms  0.451 ms
+ 2  10.21.192.1 (10.21.192.1)  22.521 ms  22.622 ms  24.094 ms
+ 3  10.242.1.17 (10.242.1.17)  24.215 ms  24.724 ms  24.840 ms
+ 4  telecentro.baires3.bai.seabone.net (195.22.220.33)  25.432 ms  25.663 ms  25.539 ms
+ 5  ae0.baires3.bai.seabone.net (195.22.220.32)  29.484 ms  29.558 ms  29.660 ms
+ 6  xe-1-2-0.paloalto2.pao.seabone.net (195.22.206.190)  214.483 ms xe-11-1-0.paloalto2.pao.seabone.net (89.221.35.129)  183.199 ms  187.956 ms
+ 7  xe-0-0-0.bb1.a.pao.aarnet.net.au (198.32.176.177)  215.967 ms  211.603 ms  211.488 ms
+ 8  xe-1-2-1.pe2.brwy.nsw.aarnet.net.au (202.158.194.176)  354.671 ms  351.964 ms  367.038 ms
+ 9  et-3-1-0.pe1.brwy.nsw.aarnet.net.au (113.197.15.146)  366.935 ms  364.283 ms  364.212 ms
+10  138.44.5.47 (138.44.5.47)  362.334 ms  375.940 ms  362.415 ms
+11  * * *
+12  * * *
+13  uat-scilearn.sydney.edu.au (129.78.5.8)  375.754 ms  351.845 ms  359.601 ms
