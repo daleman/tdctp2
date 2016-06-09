@@ -1,9 +1,9 @@
 set terminal png size 1920,1080 background rgb "#aaaaff"
 set output "mega_saopaulo.png"
 set size 1,1
-
-plot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa", \
- "" with l ls 2, \
+set key out
+plot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa" title "", \
+ "" with l ls 2 title "", \
  "www5.usp.br00_00.cor" with linespoint pt 7 lw 2, \
  "www5.usp.br00_32.cor" with linespoint pt 7 lw 2, \
  "www5.usp.br00_40.cor" with linespoint pt 7 lw 2, \

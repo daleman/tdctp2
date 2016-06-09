@@ -3,6 +3,7 @@ set output "congestion.png"
 set xdata time
 set timefmt "%H:%M"
 set format x "%H:%M"
+set key bottom
 
 plot "www.iitkgp.ac.in_congestion.dat" using 1:2 w linespoint title 'India', \
   "sydney.edu.au_congestion.dat" using 1:2 w linespoint title 'Sydney', \

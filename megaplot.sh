@@ -53,7 +53,7 @@ done
 #Genero los GNUplots (Tokyo)
 cd tokyo
 FILES=www.u-tokyo.ac.jp*.cor
-S='''set terminal png size 1920,1080 background rgb "#aaaaff"\nset output "mega_tokyo.png"\nset size 1,1\n\nplot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa", \\\n  "" with l ls 2'''
+S='''set terminal png size 1920,1080 background rgb "#aaaaff"\nset output "mega_tokyo.png"\nset size 1,1\nset key out\nplot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa" title "", \\\n  "" with l ls 2 title ""'''
 for f in $FILES
 do
 	T=''', \\\n  "'''
@@ -65,7 +65,7 @@ cd ..
 #Genero los GNUplots (India)
 cd india
 FILES=www.iitkgp.ac.in*.cor
-S='''set terminal png size 1920,1080 background rgb "#aaaaff"\nset output "mega_india.png"\nset size 1,1\n\nplot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa", \\\n  "" with l ls 2'''
+S='''set terminal png size 1920,1080 background rgb "#aaaaff"\nset output "mega_india.png"\nset size 1,1\nset key out\nplot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa" title "", \\\n  "" with l ls 2 title ""'''
 for f in $FILES
 do
 	T=''', \\\n  "'''
@@ -77,7 +77,7 @@ cd ..
 #Genero los GNUplots (Sydney)
 cd sydney
 FILES=sydney.edu.au*.cor
-S='''set terminal png size 1920,1080 background rgb "#aaaaff"\nset output "mega_sydney.png"\nset size 1,1\n\nplot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa", \\\n  "" with l ls 2'''
+S='''set terminal png size 1920,1080 background rgb "#aaaaff"\nset output "mega_sydney.png"\nset size 1,1\nset key out\nplot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa" title "", \\\n  "" with l ls 2 title ""'''
 for f in $FILES
 do
 	T=''', \\\n  "'''
@@ -89,7 +89,7 @@ cd ..
 #Genero los GNUplots (Milán)
 cd milan
 FILES=www.unimi.it*.cor
-S='''set terminal png size 1920,1080 background rgb "#aaaaff"\nset output "mega_milan.png"\nset size 1,1\n\nplot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa", \\\n  "" with l ls 2'''
+S='''set terminal png size 1920,1080 background rgb "#aaaaff"\nset output "mega_milan.png"\nset size 1,1\nset key out\nplot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa" title "", \\\n  "" with l ls 2 title ""'''
 for f in $FILES
 do
 	T=''', \\\n  "'''
@@ -101,7 +101,7 @@ cd ..
 #Genero los GNUplots (Sao Paulo)
 cd saopaulo
 FILES=www5.usp.br*.cor
-S='''set terminal png size 1920,1080 background rgb "#aaaaff"\nset output "mega_saopaulo.png"\nset size 1,1\n\nplot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa", \\\n  "" with l ls 2'''
+S='''set terminal png size 1920,1080 background rgb "#aaaaff"\nset output "mega_saopaulo.png"\nset size 1,1\nset key out\nplot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa" title "", \\\n  "" with l ls 2 title ""'''
 for f in $FILES
 do
 	T=''', \\\n  "'''

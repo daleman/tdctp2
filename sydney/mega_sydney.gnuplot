@@ -1,9 +1,9 @@
 set terminal png size 1920,1080 background rgb "#aaaaff"
 set output "mega_sydney.png"
 set size 1,1
-
-plot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa", \
- "" with l ls 2, \
+set key out
+plot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa" title "", \
+ "" with l ls 2 title "", \
  "sydney.edu.au00_04.cor" with linespoint pt 7 lw 2, \
  "sydney.edu.au00_28.cor" with linespoint pt 7 lw 2, \
  "sydney.edu.au00_37.cor" with linespoint pt 7 lw 2, \

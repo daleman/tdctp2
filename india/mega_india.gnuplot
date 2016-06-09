@@ -1,9 +1,9 @@
 set terminal png size 1920,1080 background rgb "#aaaaff"
 set output "mega_india.png"
 set size 1,1
-
-plot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa", \
- "" with l ls 2, \
+set key out
+plot "world.dat" with filledcurves ls 1 lc rgb "#aaffaa" title "", \
+ "" with l ls 2 title "", \
  "www.iitkgp.ac.in00_03.cor" with linespoint pt 7 lw 2, \
  "www.iitkgp.ac.in00_16.cor" with linespoint pt 7 lw 2, \
  "www.iitkgp.ac.in00_27.cor" with linespoint pt 7 lw 2, \
