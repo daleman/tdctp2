@@ -17,3 +17,15 @@ Los paquetes ICMP\footnote{RFC 792 (ICMP): https://tools.ietf.org/html/rfc792} s
 \subsection{Traceroute}
 
 Traceroute es una herramienta que permite mostrar la ruta de una conexión entre dos nodos, identificando todos los nodos intermedios y sus respectivos tiempos de demora. Existen distintas implementaciones de Traceroute a diferentes niveles, que brindan ventajas o desventajas en función de ello. Todas se basan en enviar mensajes con el campo TTL (time to live) incrementándose de uno en uno de forma que, los paquetes sean rechazados por los sucesivos routers en la ruta, al haber finalizado su tiempo de vida. El emisor recoge esas respuestas de los routers y genera el camino virtual correspondiente a partir de las ips de los emisores de estos mensajes. Notar que en el caso de los protocolos IP o UDP, donde no se establece una conexión (son orientados a datagramas, no a conexión) es posible que se produzca un cambio de ruta durante el procedimiento. En el momento en que el mensaje llega a destino, se obtiene una respuesta del host objetivo. Esto indica la finalización del Traceroute.
+
+\subsection{RTT: Round Trip Time}
+
+Se define el RTT como el tiempo que tarda un paquete de datos enviado desde un emisor en volver a este mismo emisor habiendo pasado por el receptor de destino.
+Si llamamos $RTT_i$ al RTT medido para el salto i, se define $ZRTT_i$ como
+
+\begin{center}
+$ ZRTT_i = \frac{RTT_i-\overline{RTT}}{SRTT}$
+\end{center}
+
+Siendo $\overline{RTT}$ y $SRTT$ el promedio y el desvío standard de los RTTs de la ruta, respectivamente. De esta manera, con el $ZRTT_i$ podemos ver a cuanto está de la media cada $RTT_i$ de forma normalizada (debido a que lo dividimos por el desvío standard)
+
