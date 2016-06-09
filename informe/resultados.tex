@@ -39,14 +39,16 @@ con destino la universidad situada en Moscu, es decir \url{www.msu.ru}.
 \end{tabular}
 
 
-Además obtuvimos mediante la técnica de estimación de outliers el salto desde Estados Unidos (208.178.195.209) hacia Suecia (4.69.158.253). Efectivamente ese es un salto transcontinental. 
-En el siguiente gráfico podemos observar las variaciones de ZRTT a lo largo de los saltos de la ruta:
-
-
 \caption{Tabla generada por Traceroute a la Universidad de Moscu (188.44.50.103)}
 % \label{my-label}
 \end{center}
 \end{figure}
+
+
+Además obtuvimos mediante la técnica de estimación de outliers el salto desde Estados Unidos (208.178.195.209) hacia Suecia (4.69.158.253). Efectivamente ese es un salto transcontinental. 
+En el siguiente gráfico podemos observar las variaciones de ZRTT a lo largo de los saltos de la ruta:
+
+
 
 Podemos observar en el gráfico que además del salto identificado mediante la técnica de Cimbala, sobresalen también el salto desde el Reino Unido hasta Rusia. Aquí se observa la ventaja de este método gráfico y la efectividad del método de Cimbala. 
 
@@ -124,7 +126,8 @@ con destino \url{www.sydney.edu.au}.
 \end{center}
 \end{figure}
 
-
+Si bien tenemos la geolocalización del outlier en Italia, viendo el dominio de la dirección IP (obtenida a partir del traceroute implementado por Linux)
+\textbf{xe-1-2-0.paloalto2.pao.seabone.net} podemos suponer que en realidad ese nodo se encuentra en Palo Alto (California, Estados Unidos). Por lo cual no estaría mal que lo detecte como outlier, sin embargo no lo podemos saber con certeza.
 
 
 \begin{center}
