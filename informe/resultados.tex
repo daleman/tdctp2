@@ -38,11 +38,11 @@ con destino la universidad situada en Moscu, es decir \url{www.msu.ru}.
 
 \end{tabular}
 
-
 \caption{Tabla generada por Traceroute a la Universidad de Moscu (188.44.50.103)}
 % \label{my-label}
 \end{center}
 \end{figure}
+
 
 
 Además obtuvimos mediante la técnica de estimación de outliers el salto desde Estados Unidos (208.178.195.209) hacia Suecia (4.69.158.253). Efectivamente ese es un salto transcontinental. 
@@ -51,6 +51,12 @@ En el siguiente gráfico podemos observar las variaciones de ZRTT a lo largo de 
 
 
 Podemos observar en el gráfico que además del salto identificado mediante la técnica de Cimbala, sobresalen también el salto desde el Reino Unido hasta Rusia. Aquí se observa la ventaja de este método gráfico y la efectividad del método de Cimbala. 
+
+Además obtuvimos mediante la técnica de estimación de outliers el salto desde Estados Unidos (208.178.195.209) hacia Suecia (4.69.158.253). Efectivamente ese es un salto transcontinental.
+En el siguiente gráfico podemos observar las variaciones de ZRTT a lo largo de los saltos de la ruta:
+
+Podemos observar en el gráfico que además del salto identificado mediante la técnica de Cimbala, sobresalen también el salto desde el Reino Unido hasta Rusia. Aquí se observa la ventaja de este método gráfico y la efectividad del método de Cimbala.
+
 
 \begin{center}
 \includegraphics[width=\textwidth]{imgs/moscu.png}
@@ -74,7 +80,7 @@ Universidad de Tokio, es decir \url{www.u-tokyo.ac.jp}.
   195.22.219.145 &  160 ms &  33  & (Italia)&  0,320754717 \\ \hline
   195.22.219.145 &  95 ms & -65 & (Italia) & -1,528301887 \\ \hline
   149.3.181.65 &  106 ms &  11  & (Italia) & -0,09433962264 \\ \hline
-  129.250.2.227 & 222 ms &  116 & Englewood (Estados Unidos)&  1,886792453 \\ \hline
+  129.250.2.227 & 222 ms &  \textbf{116} & Englewood (Estados Unidos)&  \textbf{1,886792453} \\ \hline
   129.250.4.13 &  272 ms &  50  & Englewood (Estados Unidos)&  0,641509434 \\ \hline
   129.250.2.54 &  269 ms &  -3  & Englewood (Estados Unidos) & -0,358490566 \\ \hline
   129.250.3.86 &  418 ms &  \textbf{149} & Englewood (Estados Unidos)&  \textbf{2,509433962} \\ \hline
@@ -92,6 +98,12 @@ Universidad de Tokio, es decir \url{www.u-tokyo.ac.jp}.
 \end{center}
 \end{figure}
 
+En la tabla podemos observar como tenemos dos enlaces que representan outliers respecto al resto, los cuales segun la
+herramienta de geolocalización van de Italia a Estados Unidos y de Estados Unidos a Japon, por que lo ambos enlaces
+serian transcontinentales, lo cual se corresponde con el RTT asociado.
+
+Ademas podemos observar en el gráfico como mediante la tecnica de Cimbala, estos dos enlaces son los que sobresalen
+respecto del resto.
 
 \begin{center}
 \includegraphics[width=\textwidth]{imgs/tokyo.png}
