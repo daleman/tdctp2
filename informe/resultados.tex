@@ -1,4 +1,14 @@
-\subsection{Universidad de Moscu}
+Para experimentar con las herramientas desarolladas, realizamos traceroutes a IPs pertenecientes a sitios web de universidades en diferentes paises alrededor del mundo. De todas las epxerimentaciones que hicimos nos quedamos con tres universidades:
+\begin{itemize}
+  \item Lomonosov Moscow State University, situada en Moscu, Rusia, Europa. (\url{www.msu.ru})
+  \item The University of Tokyo, situada en Tokio, Japon, Asia. (\url{www.u-tokyo.ac.jp})
+  \item The University of Sydney, situada en Sydney, Australia, Oceania. (\url{www.sydney.edu.au})
+\end{itemize}
+
+\subsection{Lomonosov Moscow State University}
+A continuacion podemos observar los resultados que obtuvimos al probar nuestra herramiento de traceroute
+con destino la universidad situada en Moscu, es decir \url{www.msu.ru}.
+
 \begin{figure}[H]
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|}
@@ -10,7 +20,7 @@
  208.178.195.210 & 84 ms & 4 & (United States) & -0,2220851326 \\ \hline
  208.178.195.209 & 91 ms & 7 & (United States) & -0,1850709439 \\ \hline
  * & & & & \\ \hline
- 4.69.158.253 & 335 ms & 244 & Suecia & 2,739049969 \\ \hline
+ 4.69.158.253 & 335 ms & \textbf{244} & Suecia & \textbf{2,739049969} \\ \hline
  4.69.158.253 & 329 ms & -6 & Suecia & -0,3454657619 \\ \hline
  213.242.110.198 & 356 ms & 27 & (United Kingdom) & 0,06169031462 \\ \hline
  * & & & & \\ \hline
@@ -26,7 +36,7 @@
 %  & Outlier: & 4.69.158.253 & & & \\
 % \hline
 \end{tabular}
-\caption{Tabla generada por Tracerout a la Universidad de Sydeny (188.44.50.103)}
+\caption{Tabla generada por Tracerout a la Universidad de Moscu (188.44.50.103)}
 % \label{my-label}
 \end{center}
 \end{figure}
@@ -36,9 +46,9 @@
 \end{center}
 
 
-\subsection{Universidad de Tokio}
+\subsection{The University of Tokyo}
 Acontinuación mostramos los resultados obtenidos cuando tomamos como destino la
-Universidad de Tokio (www.u-tokyo.ac.jp).
+Universidad de Tokio, es decir \url{www.u-tokyo.ac.jp}.
 
 \begin{figure}[H]
 \begin{center}
@@ -77,7 +87,10 @@ Universidad de Tokio (www.u-tokyo.ac.jp).
 \end{center}
 
 
-\subsection{Universidad de Sydney}
+\subsection{The University of Sydney}
+A continuacion podemos observar los resultados que obtuvimos al probar nuestra herramiento de traceroute
+con destino \url{www.sydney.edu.au}.
+
 \begin{figure}[H]
 \begin{center}
 \begin{tabular}{|c|c|c|c|c|}
@@ -88,7 +101,7 @@ Universidad de Tokio (www.u-tokyo.ac.jp).
   10.242.1.17     & 83 ms  & -84        & - & -1,497438592  \\ \hline
   195.22.220.33   & 67 ms  & -16        & - & -0,6042296073 \\ \hline
   195.22.220.32   & 78 ms  & 11         & - & -0,2495730986 \\ \hline
-  195.22.206.190  & 270 ms & 192        & - & 2,127939052   \\ \hline
+  195.22.206.190  & 270 ms & \textbf{192}        & - & \textbf{2,127939052}   \\ \hline
   198.32.176.177  & 312 ms & 42         & - & 0,1576251149  \\ \hline
   202.158.194.176 & 419 ms & 107        & - & 1,011427821   \\ \hline
   113.197.15.146  & 458 ms & 39         & - & 0,1182188362  \\ \hline
@@ -97,7 +110,7 @@ Universidad de Tokio (www.u-tokyo.ac.jp).
   * * *           &        &            & - & -0,3940627873 \\ \hline
   129.78.5.8      & 413 ms & -3         & - & -0,4334690661 \\ \hline
 \end{tabular}
-\caption{Tabla generada por Tracerout a la Universidad de Sydeny (129.78.5.8)}
+\caption{Tabla generada por Tracerout a la Universidad de Sydney (129.78.5.8)}
 % \label{my-label}
 \end{center}
 \end{figure}
