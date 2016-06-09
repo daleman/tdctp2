@@ -1,12 +1,12 @@
 Para experimentar con las herramientas desarolladas, realizamos traceroutes a IPs pertenecientes a sitios web de universidades en diferentes paises alrededor del mundo. De todas las epxerimentaciones que hicimos nos quedamos con tres universidades:
 \begin{itemize}
-  \item Lomonosov Moscow State University, situada en Moscu, Rusia, Europa. (\url{www.msu.ru})
+  \item Lomonosov Moscu State University, situada en Moscu, Rusia, Europa. (\url{www.msu.ru})
   \item The University of Tokyo, situada en Tokio, Japon, Asia. (\url{www.u-tokyo.ac.jp})
   \item The University of Sydney, situada en Sydney, Australia, Oceania. (\url{www.sydney.edu.au})
 \end{itemize}
 
-\subsection{Lomonosov Moscow State University}
-A continuacion podemos observar los resultados que obtuvimos al probar nuestra herramiento de traceroute
+\subsection{Lomonosov Moscu State University}
+A continuación podemos observar los resultados que obtuvimos al probar nuestra herramiento de traceroute
 con destino la universidad situada en Moscu, es decir \url{www.msu.ru}.
 
 \begin{figure}[H]
@@ -17,29 +17,38 @@ con destino la universidad situada en Moscu, es decir \url{www.msu.ru}.
  192.168.1.1 & 66 ms & 0 & - & -0,2714373843 \\ \hline
  10.21.192.1 & 75 ms & 9 & - & -0,160394818 \\ \hline
  10.242.1.17 & 80 ms & 5 & - & -0,2097470697 \\ \hline
- 208.178.195.210 & 84 ms & 4 & (United States) & -0,2220851326 \\ \hline
- 208.178.195.209 & 91 ms & 7 & (United States) & -0,1850709439 \\ \hline
+ 208.178.195.210 & 84 ms & 4 & (Estados Unidos) & -0,2220851326 \\ \hline
+ 208.178.195.209 & 91 ms & 7 & (Estados Unidos) & -0,1850709439 \\ \hline
  * & & & & \\ \hline
  4.69.158.253 & 335 ms & \textbf{244} & Suecia & \textbf{2,739049969} \\ \hline
  4.69.158.253 & 329 ms & -6 & Suecia & -0,3454657619 \\ \hline
- 213.242.110.198 & 356 ms & 27 & (United Kingdom) & 0,06169031462 \\ \hline
+ 213.242.110.198 & 356 ms & 27 & (Reino Unido) & 0,06169031462 \\ \hline
  * & & & & \\ \hline
- 	194.85.40.229 & 462 ms & 106 & (Russia) & 1,036397286 \\ \hline
- 	194.190.254.118 & 378 ms & -84 & (Russia) & -1,30783467 \\ \hline
- 	93.180.0.172 & 464 ms & 86 & Moscow (Russia) & 0,7896360271 \\ \hline
- 	188.44.33.30 & 439 ms & -25 & Moscow (Russia) & -0,5798889574 \\ \hline
- 	188.44.33.2 & 365 ms & -74 & Moscow (Russia) & -1,184454041 \\ \hline
- 	188.44.50.103 & 383 ms & 18 & Moscow (Russia) & -0,0493522517 \\ \hline
+ 194.85.40.229 & 462 ms & 106 & (Rusia) & 1,036397286 \\ \hline
+ 194.190.254.118 & 378 ms & -84 & (Rusia) & -1,30783467 \\ \hline
+ 93.180.0.172 & 464 ms & 86 & Moscu (Rusia) & 0,7896360271 \\ \hline
+ 188.44.33.30 & 439 ms & -25 & Moscu (Rusia) & -0,5798889574 \\ \hline
+ 188.44.33.2 & 365 ms & -74 & Moscu (Rusia) & -1,184454041 \\ \hline
+ 188.44.50.103 & 383 ms & 18 & Moscu (Rusia) & -0,0493522517 \\ \hline
 % \hline
 %  & Average: & 22 & & & \\
 %  & Std Deviation: & 81.0555365166 & & & \\
 %  & Outlier: & 4.69.158.253 & & & \\
 % \hline
+
 \end{tabular}
-\caption{Tabla generada por Tracerout a la Universidad de Moscu (188.44.50.103)}
+
+
+Además obtuvimos mediante la técnica de estimación de outliers el salto desde Estados Unidos (208.178.195.209) hacia Suecia (4.69.158.253). Efectivamente ese es un salto transcontinental. 
+En el siguiente gráfico podemos observar las variaciones de ZRTT a lo largo de los saltos de la ruta:
+
+
+\caption{Tabla generada por Traceroute a la Universidad de Moscu (188.44.50.103)}
 % \label{my-label}
 \end{center}
 \end{figure}
+
+Podemos observar en el gráfico que además del salto identificado mediante la técnica de Cimbala, sobresalen también el salto desde el Reino Unido hasta Rusia. Aquí se observa la ventaja de este método gráfico y la efectividad del método de Cimbala. 
 
 \begin{center}
 \includegraphics[width=\textwidth]{imgs/moscu.png}
@@ -58,25 +67,25 @@ Universidad de Tokio, es decir \url{www.u-tokyo.ac.jp}.
   192.168.1.1 & 62 ms & 0 & - & -0,3018867925 \\ \hline
   10.21.192.1 & 159 ms &  97  & - &  1,528301887 \\ \hline
   10.242.1.17 & 123 ms &  -36 & - & -0,9811320755 \\ \hline
-  195.22.220.33 & 76 ms & -47 & (Italy) & -1,188679245 \\ \hline
-  195.22.220.32 & 127 ms &  51  & (Italy)&  0,6603773585 \\ \hline
-  195.22.219.145 &  160 ms &  33  & (Italy)&  0,320754717 \\ \hline
-  195.22.219.145 &  95 ms & -65 & (Italy) & -1,528301887 \\ \hline
-  149.3.181.65 &  106 ms &  11  & (Italy) & -0,09433962264 \\ \hline
-  129.250.2.227 & 222 ms &  116 & Englewood (United States)&  1,886792453 \\ \hline
-  129.250.4.13 &  272 ms &  50  & Englewood (United States)&  0,641509434 \\ \hline
-  129.250.2.54 &  269 ms &  -3  & Englewood (United States) & -0,358490566 \\ \hline
-  129.250.3.86 &  418 ms &  \textbf{149} & Englewood (United States)&  \textbf{2,509433962} \\ \hline
-  129.250.6.188 & 405 ms &  -13 & Englewood (United States) & -0,5471698113 \\ \hline
-  129.250.2.255 & 404 ms &  -1  & Englewood (United States) & -0,320754717 \\ \hline
-  61.200.80.218 & 396 ms &  -8  & (Japan) & -0,4528301887 \\ \hline
-  158.205.192.173 & 414 ms &  18  & (Japan)&  0,03773584906 \\ \hline
-  158.205.192.86 &  413 ms &  -1  & (Japan) & -0,320754717 \\ \hline
-  158.205.121.250 & 387 ms &  -26 & (Japan) & -0,7924528302 \\ \hline
-  154.34.240.254 &  407 ms &  20  & (Japan)&  0,07547169811 \\ \hline
-  210.152.135.178 & 399 ms &  -8  & (Japan) & -0,4528301887 \\ \hline
+  195.22.220.33 & 76 ms & -47 & (Italia) & -1,188679245 \\ \hline
+  195.22.220.32 & 127 ms &  51  & (Italia)&  0,6603773585 \\ \hline
+  195.22.219.145 &  160 ms &  33  & (Italia)&  0,320754717 \\ \hline
+  195.22.219.145 &  95 ms & -65 & (Italia) & -1,528301887 \\ \hline
+  149.3.181.65 &  106 ms &  11  & (Italia) & -0,09433962264 \\ \hline
+  129.250.2.227 & 222 ms &  116 & Englewood (Estados Unidos)&  1,886792453 \\ \hline
+  129.250.4.13 &  272 ms &  50  & Englewood (Estados Unidos)&  0,641509434 \\ \hline
+  129.250.2.54 &  269 ms &  -3  & Englewood (Estados Unidos) & -0,358490566 \\ \hline
+  129.250.3.86 &  418 ms &  \textbf{149} & Englewood (Estados Unidos)&  \textbf{2,509433962} \\ \hline
+  129.250.6.188 & 405 ms &  -13 & Englewood (Estados Unidos) & -0,5471698113 \\ \hline
+  129.250.2.255 & 404 ms &  -1  & Englewood (Estados Unidos) & -0,320754717 \\ \hline
+  61.200.80.218 & 396 ms &  -8  & (Japón) & -0,4528301887 \\ \hline
+  158.205.192.173 & 414 ms &  18  & (Japón)&  0,03773584906 \\ \hline
+  158.205.192.86 &  413 ms &  -1  & (Japón) & -0,320754717 \\ \hline
+  158.205.121.250 & 387 ms &  -26 & (Japón) & -0,7924528302 \\ \hline
+  154.34.240.254 &  407 ms &  20  & (Japón)&  0,07547169811 \\ \hline
+  210.152.135.178 & 399 ms &  -8  & (Japón) & -0,4528301887 \\ \hline
 \end{tabular}
-\caption{Tabla generada por Tracerout a la Universidad de Tokyo (210.152.135.178)}
+\caption{Tabla generada por Traceroute a la Universidad de Tokyo (210.152.135.178)}
 % \label{my-label}
 \end{center}
 \end{figure}
@@ -110,7 +119,7 @@ con destino \url{www.sydney.edu.au}.
   * * *           &        &            & - & -0,3940627873 \\ \hline
   129.78.5.8      & 413 ms & -3         & - & -0,4334690661 \\ \hline
 \end{tabular}
-\caption{Tabla generada por Tracerout a la Universidad de Sydney (129.78.5.8)}
+\caption{Tabla generada por Traceroute a la Universidad de Sydney (129.78.5.8)}
 % \label{my-label}
 \end{center}
 \end{figure}
